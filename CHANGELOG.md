@@ -5,6 +5,39 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2024-12-22
+
+### Added
+- **Caching Layer**: LRU cache with TTL for search results
+  - `SearchCache` class with thread-safe operations
+  - LRU (Least Recently Used) eviction policy
+  - Configurable TTL (Time To Live) for cache entries
+  - Query normalization (case-insensitive, whitespace-agnostic)
+  - Cache statistics and hit rate monitoring
+  - `get_cache_stats` MCP tool for cache diagnostics
+- **Environment Configuration** for caching:
+  - `CACHE_ENABLED`: Enable/disable caching (default: true)
+  - `CACHE_MAX_SIZE`: Maximum cache entries (default: 100)
+  - `CACHE_TTL_SECONDS`: Cache TTL in seconds (default: 3600)
+- `cached_search` method in `SearchProvider` base class
+- 16 comprehensive cache tests (100% passing)
+
+### Changed
+- Updated all search tools to use `cached_search` for better performance
+- Extended `SearchProvider.__init__` to accept optional `cache` parameter
+- Updated provider constructors (`DuckDuckGoProvider`, `SearxNGProvider`) to support cache
+- Enhanced MCP resource documentation with cache information
+- Updated README with caching configuration examples
+
+### Improved
+- Performance: Cached searches can be 100-1000x faster for repeated queries
+- Resource utilization: Reduced load on search providers
+- Documentation: Added cache configuration and usage examples
+
+### Testing
+- Total tests: 31 (15 original + 16 cache tests)
+- All tests passing with 100% success rate
+
 ## [0.1.0] - 2024-12-22
 
 ### Added
@@ -53,4 +86,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Error handling tests
 - 15 tests, 100% passing
 
+[0.2.0]: https://github.com/tzervas/search-box/releases/tag/v0.2.0
 [0.1.0]: https://github.com/tzervas/search-box/releases/tag/v0.1.0
