@@ -11,6 +11,7 @@ Features:
 - Token/context optimization through progressive discovery
 """
 
+import os
 from mcp.server.fastmcp import FastMCP
 from search_box.providers import DuckDuckGoProvider, SearxNGProvider
 from search_box.base import SearchResult
@@ -18,11 +19,15 @@ from search_box.base import SearchResult
 # Initialize FastMCP server
 mcp = FastMCP("search-box-mcp")
 
+# Get SearxNG instance URLs from environment or use defaults
+SEARXNG_PRIMARY = os.getenv("SEARXNG_PRIMARY_INSTANCE", "https://searx.be")
+SEARXNG_SECONDARY = os.getenv("SEARXNG_SECONDARY_INSTANCE", "https://search.bus-hit.me")
+
 # Initialize providers
 providers = {
     "duckduckgo": DuckDuckGoProvider(name="duckduckgo"),
-    "searxng_primary": SearxNGProvider(name="searxng_primary", instance_url="https://searx.be"),
-    "searxng_secondary": SearxNGProvider(name="searxng_secondary", instance_url="https://search.bus-hit.me"),
+    "searxng_primary": SearxNGProvider(name="searxng_primary", instance_url=SEARXNG_PRIMARY),
+    "searxng_secondary": SearxNGProvider(name="searxng_secondary", instance_url=SEARXNG_SECONDARY),
 }
 
 

@@ -86,11 +86,19 @@ Add to your `claude_desktop_config.json`:
     "search-box": {
       "command": "python",
       "args": ["/path/to/search-box/main.py"],
-      "transport": "stdio"
+      "transport": "stdio",
+      "env": {
+        "SEARXNG_PRIMARY_INSTANCE": "https://searx.be",
+        "SEARXNG_SECONDARY_INSTANCE": "https://search.bus-hit.me"
+      }
     }
   }
 }
 ```
+
+**Environment Variables:**
+- `SEARXNG_PRIMARY_INSTANCE`: Primary SearxNG instance URL (default: https://searx.be)
+- `SEARXNG_SECONDARY_INSTANCE`: Secondary SearxNG instance URL (default: https://search.bus-hit.me)
 
 ### Using the Tools
 

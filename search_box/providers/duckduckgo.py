@@ -1,6 +1,7 @@
 """DuckDuckGo search provider implementation (keyless, anonymous)."""
 
 import re
+import urllib.parse
 from typing import Optional
 import httpx
 from bs4 import BeautifulSoup
@@ -127,7 +128,6 @@ class DuckDuckGoProvider(SearchProvider):
             # Extract the actual URL from redirect
             match = re.search(r"uddg=([^&]+)", url)
             if match:
-                import urllib.parse
                 return urllib.parse.unquote(match.group(1))
         
         return url
