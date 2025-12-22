@@ -11,6 +11,7 @@ This MCP server implements the official [Model Context Protocol specification](h
 - **Privacy First**: Anonymous search via DuckDuckGo and SearxNG
 - **Multi-Provider**: Multiple search backends with standardized interfaces
 - **Production Ready**: Async, error handling, normalization, and proper schemas
+- **Smart Caching**: LRU cache with TTL for improved performance
 
 ## Features
 
@@ -31,9 +32,17 @@ This MCP server implements the official [Model Context Protocol specification](h
    - Instance: search.bus-hit.me
    - Load distribution and reliability
 
+### Result Caching
+
+- **LRU Cache**: Least Recently Used eviction policy
+- **TTL Support**: Configurable time-to-live for entries
+- **Thread-Safe**: Safe for concurrent operations
+- **Statistics**: Monitor cache performance with `get_cache_stats` tool
+- **Configurable**: Adjust size and TTL via environment variables
+
 ### MCP Primitives
 
-- **Tools**: Three standardized web search tools with identical schemas
+- **Tools**: Four tools (3 search + 1 diagnostic)
 - **Resources**: `search://available-tools` - documentation of available tools
 - **Discovery**: Dynamic listing via MCP protocol reduces token usage
 
@@ -89,7 +98,10 @@ Add to your `claude_desktop_config.json`:
       "transport": "stdio",
       "env": {
         "SEARXNG_PRIMARY_INSTANCE": "https://searx.be",
-        "SEARXNG_SECONDARY_INSTANCE": "https://search.bus-hit.me"
+        "SEARXNG_SECONDARY_INSTANCE": "https://search.bus-hit.me",
+        "CACHE_ENABLED": "true",
+        "CACHE_MAX_SIZE": "100",
+        "CACHE_TTL_SECONDS": "3600"
       }
     }
   }
@@ -97,8 +109,15 @@ Add to your `claude_desktop_config.json`:
 ```
 
 **Environment Variables:**
+
+*Search Providers:*
 - `SEARXNG_PRIMARY_INSTANCE`: Primary SearxNG instance URL (default: https://searx.be)
 - `SEARXNG_SECONDARY_INSTANCE`: Secondary SearxNG instance URL (default: https://search.bus-hit.me)
+
+*Caching:*
+- `CACHE_ENABLED`: Enable/disable result caching (default: true)
+- `CACHE_MAX_SIZE`: Maximum number of cached queries (default: 100)
+- `CACHE_TTL_SECONDS`: Time to live for cached results in seconds (default: 3600)
 
 ### Using the Tools
 

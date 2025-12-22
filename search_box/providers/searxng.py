@@ -22,7 +22,8 @@ class SearxNGProvider(SearchProvider):
     def __init__(
         self, 
         name: str = "searxng",
-        instance_url: Optional[str] = None
+        instance_url: Optional[str] = None,
+        cache=None
     ):
         """
         Initialize SearxNG provider.
@@ -30,8 +31,9 @@ class SearxNGProvider(SearchProvider):
         Args:
             name: Provider name for identification
             instance_url: Custom SearxNG instance URL (optional)
+            cache: Optional SearchCache instance for result caching
         """
-        super().__init__(name)
+        super().__init__(name, cache)
         self.instance_url = instance_url or self.DEFAULT_INSTANCES[0]
         self.search_endpoint = f"{self.instance_url}/search"
         self.headers = {
