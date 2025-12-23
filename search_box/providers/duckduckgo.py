@@ -15,9 +15,9 @@ class DuckDuckGoProvider(SearchProvider):
     No API key required, respects privacy.
     """
     
-    def __init__(self, name: str = "duckduckgo"):
+    def __init__(self, name: str = "duckduckgo", cache=None):
         """Initialize DuckDuckGo provider."""
-        super().__init__(name)
+        super().__init__(name, cache)
         self.base_url = "https://html.duckduckgo.com/html/"
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
