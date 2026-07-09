@@ -3,16 +3,22 @@
 > **Honesty:** Empirical/Declared — lite heading/line heuristic over markdown in search-box via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-09.
 > Use this index to find where to Read, not as authoritative ground truth.
 
-- **Items:** 277
+- **Items:** 283
 - **Flagged:** 0
 - **item_tag:** `Empirical/Declared`
 - **Machine index:** [`index.json`](./index.json)
 - **Manifest:** [`MANIFEST.toml`](./MANIFEST.toml)
 
-## doc (264 entries)
+## doc (270 entries)
 
 | Anchor | Kind | Id | Title | File:Line | Status | Summary |
 |---|---|---|---|---|---|---|
+| `agents` | other | — | AGENTS.md — search-box | `AGENTS.md:2` | — | Use Tero + cabal-devmelopner for work here. |
+| `agents--tero-layer-1-corpus-index` | section | — | Tero (Layer-1 corpus index) | `AGENTS.md:6` | — | Repo has docs/tero-index/index.json (generated/ refreshed via tero-mcp/scripts/generateliteindex.py). |
+| `agents--agent-with-context` | other | — | agent with context: | `AGENTS.md:18` | — | uv run --project ../cabal-devmelopner cabal-devmelopner "task description here" --use-tero |
+| `agents--working-with-cabal-devmelopner-agent-tool` | section | — | Working with cabal-devmelopner agent tool | `AGENTS.md:24` | — | This project is prepared for integration: |
+| `agents--local-checks` | section | — | Local checks | `AGENTS.md:36` | — | Look for: |
+| `agents--further-reading` | section | — | Further reading | `AGENTS.md:44` | — | - README.md |
 | `implementationsummary` | section | — | Implementation Summary | `IMPLEMENTATION_SUMMARY.md:1` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--project-multi-provider-mcp-server-for-keyless-search-tools` | section | — | Project: Multi-Provider MCP Server for Keyless Search Tools | `IMPLEMENTATION_SUMMARY.md:3` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--overview` | section | — | Overview | `IMPLEMENTATION_SUMMARY.md:5` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
