@@ -4,6 +4,66 @@
   "siblings": [],
   "items": [
     {
+      "anchor": "agents",
+      "family": "doc",
+      "kind": "other",
+      "title": "AGENTS.md — search-box",
+      "file": "AGENTS.md",
+      "line": 2,
+      "tag": "Empirical/Declared",
+      "summary": "Use Tero + cabal-devmelopner for work here."
+    },
+    {
+      "anchor": "agents--tero-layer-1-corpus-index",
+      "family": "doc",
+      "kind": "section",
+      "title": "Tero (Layer-1 corpus index)",
+      "file": "AGENTS.md",
+      "line": 6,
+      "tag": "Empirical/Declared",
+      "summary": "Repo has docs/tero-index/index.json (generated/ refreshed via tero-mcp/scripts/generateliteindex.py)."
+    },
+    {
+      "anchor": "agents--agent-with-context",
+      "family": "doc",
+      "kind": "other",
+      "title": "agent with context:",
+      "file": "AGENTS.md",
+      "line": 18,
+      "tag": "Empirical/Declared",
+      "summary": "uv run --project ../cabal-devmelopner cabal-devmelopner \"task description here\" --use-tero"
+    },
+    {
+      "anchor": "agents--working-with-cabal-devmelopner-agent-tool",
+      "family": "doc",
+      "kind": "section",
+      "title": "Working with cabal-devmelopner agent tool",
+      "file": "AGENTS.md",
+      "line": 24,
+      "tag": "Empirical/Declared",
+      "summary": "This project is prepared for integration:"
+    },
+    {
+      "anchor": "agents--local-checks",
+      "family": "doc",
+      "kind": "section",
+      "title": "Local checks",
+      "file": "AGENTS.md",
+      "line": 36,
+      "tag": "Empirical/Declared",
+      "summary": "Look for:"
+    },
+    {
+      "anchor": "agents--further-reading",
+      "family": "doc",
+      "kind": "section",
+      "title": "Further reading",
+      "file": "AGENTS.md",
+      "line": 44,
+      "tag": "Empirical/Declared",
+      "summary": "- README.md"
+    },
+    {
       "anchor": "implementationsummary",
       "family": "doc",
       "kind": "section",
@@ -761,6 +821,16 @@
       "summary": "Optional search MCP after promote-to-main and schema freeze. Complements webpuppet (no browser for simple search). Not a substitute for Tero corpus search."
     },
     {
+      "anchor": "assessment--tero-index",
+      "family": "doc",
+      "kind": "section",
+      "title": "Tero index",
+      "file": "docs/ASSESSMENT.md",
+      "line": 51,
+      "tag": "Empirical/Declared",
+      "summary": "Layer-1 citation index: [docs/tero-index/](tero-index/) (index.json, INDEX.md, MANIFEST.toml)."
+    },
+    {
       "anchor": "integration",
       "family": "doc",
       "kind": "section",
@@ -1219,6 +1289,66 @@
       "line": 412,
       "tag": "Empirical/Declared",
       "summary": "- [MCP Specification](https://modelcontextprotocol.io/)"
+    },
+    {
+      "anchor": "localchecks",
+      "family": "doc",
+      "kind": "section",
+      "title": "Local checks (CI parity)",
+      "file": "docs/LOCAL_CHECKS.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "GitHub Actions workflows in this repo are manual only (workflowdispatch)."
+    },
+    {
+      "anchor": "localchecks--run-everything-the-remote-job-would-run",
+      "family": "doc",
+      "kind": "section",
+      "title": "Run everything the remote job would run",
+      "file": "docs/LOCAL_CHECKS.md",
+      "line": 6,
+      "tag": "Empirical/Declared",
+      "summary": "./scripts/check.sh"
+    },
+    {
+      "anchor": "localchecks--tero-index",
+      "family": "doc",
+      "kind": "section",
+      "title": "Tero index",
+      "file": "docs/LOCAL_CHECKS.md",
+      "line": 19,
+      "tag": "Empirical/Declared",
+      "summary": "python3 ../tero-mcp/scripts/generateliteindex.py --root \"$(pwd)\""
+    },
+    {
+      "anchor": "localchecks--from-a-checkout-that-can-see-the-generator-sibling-tero-mcp-recommended",
+      "family": "doc",
+      "kind": "other",
+      "title": "from a checkout that can see the generator (sibling tero-mcp recommended):",
+      "file": "docs/LOCAL_CHECKS.md",
+      "line": 22,
+      "tag": "Empirical/Declared",
+      "summary": "python3 ../tero-mcp/scripts/generateliteindex.py --root \"$(pwd)\""
+    },
+    {
+      "anchor": "localchecks--or",
+      "family": "doc",
+      "kind": "other",
+      "title": "or:",
+      "file": "docs/LOCAL_CHECKS.md",
+      "line": 24,
+      "tag": "Empirical/Declared",
+      "summary": "python3 scripts/generateteroindex.sh   # if present as a thin wrapper"
+    },
+    {
+      "anchor": "localchecks--remote-optional",
+      "family": "doc",
+      "kind": "section",
+      "title": "Remote (optional)",
+      "file": "docs/LOCAL_CHECKS.md",
+      "line": 30,
+      "tag": "Empirical/Declared",
+      "summary": "In GitHub: Actions → CI → Run workflow."
     },
     {
       "anchor": "readme-2",
@@ -2527,6 +2657,46 @@
     },
     {
       "anchor": "readme-6",
+      "family": "doc",
+      "kind": "other",
+      "title": "Tero index (Layer 1)",
+      "file": "docs/tero-index/README.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "Machine + human citation index for this repository."
+    },
+    {
+      "anchor": "readme--regenerate",
+      "family": "doc",
+      "kind": "section",
+      "title": "Regenerate",
+      "file": "docs/tero-index/README.md",
+      "line": 13,
+      "tag": "Empirical/Declared",
+      "summary": "python3 /path/to/tero-mcp/scripts/generateliteindex.py --root $(pwd)"
+    },
+    {
+      "anchor": "readme--or-if-tero-mcp-is-a-sibling",
+      "family": "doc",
+      "kind": "other",
+      "title": "or if tero-mcp is a sibling:",
+      "file": "docs/tero-index/README.md",
+      "line": 17,
+      "tag": "Empirical/Declared",
+      "summary": "python3 ../tero-mcp/scripts/generateliteindex.py --root $(pwd)"
+    },
+    {
+      "anchor": "readme--serve-locally",
+      "family": "doc",
+      "kind": "section",
+      "title": "Serve locally",
+      "file": "docs/tero-index/README.md",
+      "line": 21,
+      "tag": "Empirical/Declared",
+      "summary": "export TEROTOKENS=local-dev:refresh"
+    },
+    {
+      "anchor": "readme-7",
       "family": "research",
       "kind": "record",
       "title": "README",
@@ -2535,7 +2705,7 @@
       "tag": "Empirical/Declared"
     },
     {
-      "anchor": "readme-7",
+      "anchor": "readme-8",
       "family": "research",
       "kind": "record",
       "title": "README",
