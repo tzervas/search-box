@@ -1,36 +1,32 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-venv/
-env/
-ENV/
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
 
 # IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
 # Logs
-*.log
-
+# OS
+# Python-generated files
 # Temporary files
+# Testing
+# Virtual environments
+*.egg-info
+*.log
+*.py[oc]
+*.swo
+*.swp
+*~
+.DS_Store
+.coverage
+.idea/
+.pytest_cache/
+.tox/
+.venv
+.venv-check/
+.vscode/
 /tmp/
+ENV/
+Thumbs.db
+__pycache__/
+build/
+dist/
+env/
+htmlcov/
+venv/
+wheels/
