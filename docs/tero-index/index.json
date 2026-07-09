@@ -1,0 +1,2658 @@
+{
+  "generated": "Empirical/Declared — lite heading/line heuristic over markdown in search-box via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-09.",
+  "item_tag": "Empirical/Declared",
+  "siblings": [],
+  "items": [
+    {
+      "anchor": "implementationsummary",
+      "family": "doc",
+      "kind": "section",
+      "title": "Implementation Summary",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m…"
+    },
+    {
+      "anchor": "implementationsummary--project-multi-provider-mcp-server-for-keyless-search-tools",
+      "family": "doc",
+      "kind": "section",
+      "title": "Project: Multi-Provider MCP Server for Keyless Search Tools",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 3,
+      "tag": "Empirical/Declared",
+      "summary": "Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m…"
+    },
+    {
+      "anchor": "implementationsummary--overview",
+      "family": "doc",
+      "kind": "section",
+      "title": "Overview",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 5,
+      "tag": "Empirical/Declared",
+      "summary": "Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m…"
+    },
+    {
+      "anchor": "implementationsummary--key-achievements",
+      "family": "doc",
+      "kind": "section",
+      "title": "Key Achievements",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 9,
+      "tag": "Empirical/Declared",
+      "summary": "Base Adapter System"
+    },
+    {
+      "anchor": "implementationsummary--1.-core-architecture",
+      "family": "doc",
+      "kind": "section",
+      "title": "1. Core Architecture ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 11,
+      "tag": "Empirical/Declared",
+      "summary": "Base Adapter System"
+    },
+    {
+      "anchor": "implementationsummary--2.-mcp-server-implementation",
+      "family": "doc",
+      "kind": "section",
+      "title": "2. MCP Server Implementation ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 29,
+      "tag": "Empirical/Declared",
+      "summary": "FastMCP Server"
+    },
+    {
+      "anchor": "implementationsummary--3.-quality-assurance",
+      "family": "doc",
+      "kind": "section",
+      "title": "3. Quality Assurance ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 46,
+      "tag": "Empirical/Declared",
+      "summary": "Testing (15/15 passing)"
+    },
+    {
+      "anchor": "implementationsummary--4.-documentation",
+      "family": "doc",
+      "kind": "section",
+      "title": "4. Documentation ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 68,
+      "tag": "Empirical/Declared",
+      "summary": "Comprehensive Documentation Suite"
+    },
+    {
+      "anchor": "implementationsummary--5.-configuration",
+      "family": "doc",
+      "kind": "section",
+      "title": "5. Configuration ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 84,
+      "tag": "Empirical/Declared",
+      "summary": "Python Setup"
+    },
+    {
+      "anchor": "implementationsummary--technical-highlights",
+      "family": "doc",
+      "kind": "section",
+      "title": "Technical Highlights",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 97,
+      "tag": "Empirical/Declared",
+      "summary": "Efficiency Gain: ~87% reduction in context tokens"
+    },
+    {
+      "anchor": "implementationsummary--token-efficiency-comparison",
+      "family": "doc",
+      "kind": "section",
+      "title": "Token Efficiency Comparison",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 99,
+      "tag": "Empirical/Declared",
+      "summary": "Efficiency Gain: ~87% reduction in context tokens"
+    },
+    {
+      "anchor": "implementationsummary--architecture-decisions",
+      "family": "doc",
+      "kind": "section",
+      "title": "Architecture Decisions",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 108,
+      "tag": "Empirical/Declared",
+      "summary": "1. Adapter Pattern: Enables easy addition of new providers"
+    },
+    {
+      "anchor": "implementationsummary--testing-strategy",
+      "family": "doc",
+      "kind": "section",
+      "title": "Testing Strategy",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 116,
+      "tag": "Empirical/Declared",
+      "summary": "- Unit Tests: Core functionality in isolation"
+    },
+    {
+      "anchor": "implementationsummary--file-structure",
+      "family": "doc",
+      "kind": "section",
+      "title": "File Structure",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 123,
+      "tag": "Empirical/Declared",
+      "summary": "search-box/"
+    },
+    {
+      "anchor": "implementationsummary--compliance",
+      "family": "doc",
+      "kind": "section",
+      "title": "Compliance",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 158,
+      "tag": "Empirical/Declared",
+      "summary": "- [x] JSON-RPC 2.0 protocol"
+    },
+    {
+      "anchor": "implementationsummary--mcp-specification-2025-11-25",
+      "family": "doc",
+      "kind": "section",
+      "title": "MCP Specification (2025-11-25) ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 160,
+      "tag": "Empirical/Declared",
+      "summary": "- [x] JSON-RPC 2.0 protocol"
+    },
+    {
+      "anchor": "implementationsummary--python-best-practices",
+      "family": "doc",
+      "kind": "section",
+      "title": "Python Best Practices ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 169,
+      "tag": "Empirical/Declared",
+      "summary": "- [x] Type hints (PEP 484)"
+    },
+    {
+      "anchor": "implementationsummary--security-best-practices",
+      "family": "doc",
+      "kind": "section",
+      "title": "Security Best Practices ✓",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 177,
+      "tag": "Empirical/Declared",
+      "summary": "- [x] No hardcoded credentials"
+    },
+    {
+      "anchor": "implementationsummary--usage-examples",
+      "family": "doc",
+      "kind": "section",
+      "title": "Usage Examples",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 185,
+      "tag": "Empirical/Declared",
+      "summary": "{"
+    },
+    {
+      "anchor": "implementationsummary--with-claude-desktop",
+      "family": "doc",
+      "kind": "section",
+      "title": "With Claude Desktop",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 187,
+      "tag": "Empirical/Declared",
+      "summary": "{"
+    },
+    {
+      "anchor": "implementationsummary--programmatic",
+      "family": "doc",
+      "kind": "section",
+      "title": "Programmatic",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 199,
+      "tag": "Empirical/Declared",
+      "summary": "from searchbox import DuckDuckGoProvider"
+    },
+    {
+      "anchor": "implementationsummary--cli",
+      "family": "doc",
+      "kind": "section",
+      "title": "CLI",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 207,
+      "tag": "Empirical/Declared",
+      "summary": "python cli.py search \"Python MCP\" --provider duckduckgo --num-results 5"
+    },
+    {
+      "anchor": "implementationsummary--performance-characteristics",
+      "family": "doc",
+      "kind": "section",
+      "title": "Performance Characteristics",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 213,
+      "tag": "Empirical/Declared",
+      "summary": "- Latency:"
+    },
+    {
+      "anchor": "implementationsummary--completed-enhancements-v0.2.0",
+      "family": "doc",
+      "kind": "section",
+      "title": "Completed Enhancements (v0.2.0)",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 227,
+      "tag": "Empirical/Declared",
+      "summary": "Implemented in v0.2.0 with the following features:"
+    },
+    {
+      "anchor": "implementationsummary--caching-layer-for-frequent-queries",
+      "family": "doc",
+      "kind": "section",
+      "title": "✅ Caching Layer for Frequent Queries",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 229,
+      "tag": "Empirical/Declared",
+      "summary": "Implemented in v0.2.0 with the following features:"
+    },
+    {
+      "anchor": "implementationsummary--future-enhancements",
+      "family": "doc",
+      "kind": "section",
+      "title": "Future Enhancements",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 240,
+      "tag": "Empirical/Declared",
+      "summary": "1. Additional providers (Brave Search, Bing, etc.) - ⚠️ Requires API keys"
+    },
+    {
+      "anchor": "implementationsummary--potential-additions",
+      "family": "doc",
+      "kind": "section",
+      "title": "Potential Additions",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 242,
+      "tag": "Empirical/Declared",
+      "summary": "1. Additional providers (Brave Search, Bing, etc.) - ⚠️ Requires API keys"
+    },
+    {
+      "anchor": "implementationsummary--architectural-improvements",
+      "family": "doc",
+      "kind": "section",
+      "title": "Architectural Improvements",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 252,
+      "tag": "Empirical/Declared",
+      "summary": "1. Connection pooling for HTTP clients"
+    },
+    {
+      "anchor": "implementationsummary--success-metrics",
+      "family": "doc",
+      "kind": "section",
+      "title": "Success Metrics",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 259,
+      "tag": "Empirical/Declared",
+      "summary": "- ✅ 31/31 tests passing (100%) - +16 cache tests"
+    },
+    {
+      "anchor": "implementationsummary--version-0.2.0",
+      "family": "doc",
+      "kind": "section",
+      "title": "Version 0.2.0",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 261,
+      "tag": "Empirical/Declared",
+      "summary": "- ✅ 31/31 tests passing (100%) - +16 cache tests"
+    },
+    {
+      "anchor": "implementationsummary--version-0.1.0",
+      "family": "doc",
+      "kind": "section",
+      "title": "Version 0.1.0",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 272,
+      "tag": "Empirical/Declared",
+      "summary": "- ✅ 15/15 tests passing (100%)"
+    },
+    {
+      "anchor": "implementationsummary--deployment-ready",
+      "family": "doc",
+      "kind": "section",
+      "title": "Deployment Ready",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 278,
+      "tag": "Empirical/Declared",
+      "summary": "The implementation is production-ready with:"
+    },
+    {
+      "anchor": "implementationsummary--conclusion",
+      "family": "doc",
+      "kind": "section",
+      "title": "Conclusion",
+      "file": "IMPLEMENTATION_SUMMARY.md",
+      "line": 289,
+      "tag": "Empirical/Declared",
+      "summary": "This implementation successfully delivers a complete, production-ready MCP server for keyless search tools. It demonstrates:"
+    },
+    {
+      "anchor": "readme",
+      "family": "doc",
+      "kind": "other",
+      "title": "Search Box - Multi-Provider MCP Server",
+      "file": "README.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "A production-ready implementation of Anthropic's Model Context Protocol (MCP) for keyless, privacy-focused search tools. This server provides token-efficient s…"
+    },
+    {
+      "anchor": "readme--overview",
+      "family": "doc",
+      "kind": "section",
+      "title": "Overview",
+      "file": "README.md",
+      "line": 5,
+      "tag": "Empirical/Declared",
+      "summary": "This MCP server implements the official [Model Context Protocol specification](https://modelcontextprotocol.io/) (version 2025-11-25) to enable:"
+    },
+    {
+      "anchor": "readme--features",
+      "family": "doc",
+      "kind": "section",
+      "title": "Features",
+      "file": "README.md",
+      "line": 16,
+      "tag": "Empirical/Declared",
+      "summary": "1. DuckDuckGo (websearchduckduckgo)"
+    },
+    {
+      "anchor": "readme--search-providers",
+      "family": "doc",
+      "kind": "section",
+      "title": "Search Providers",
+      "file": "README.md",
+      "line": 18,
+      "tag": "Empirical/Declared",
+      "summary": "1. DuckDuckGo (websearchduckduckgo)"
+    },
+    {
+      "anchor": "readme--result-caching",
+      "family": "doc",
+      "kind": "section",
+      "title": "Result Caching",
+      "file": "README.md",
+      "line": 35,
+      "tag": "Empirical/Declared",
+      "summary": "- LRU Cache: Least Recently Used eviction policy"
+    },
+    {
+      "anchor": "readme--mcp-primitives",
+      "family": "doc",
+      "kind": "section",
+      "title": "MCP Primitives",
+      "file": "README.md",
+      "line": 43,
+      "tag": "Empirical/Declared",
+      "summary": "- Tools: Four tools (3 search + 1 diagnostic)"
+    },
+    {
+      "anchor": "readme--installation",
+      "family": "doc",
+      "kind": "section",
+      "title": "Installation",
+      "file": "README.md",
+      "line": 49,
+      "tag": "Empirical/Declared",
+      "summary": "- Python 3.12+"
+    },
+    {
+      "anchor": "readme--requirements",
+      "family": "doc",
+      "kind": "section",
+      "title": "Requirements",
+      "file": "README.md",
+      "line": 51,
+      "tag": "Empirical/Declared",
+      "summary": "- Python 3.12+"
+    },
+    {
+      "anchor": "readme--setup",
+      "family": "doc",
+      "kind": "section",
+      "title": "Setup",
+      "file": "README.md",
+      "line": 56,
+      "tag": "Empirical/Declared",
+      "summary": "git clone https://github.com/tzervas/search-box.git"
+    },
+    {
+      "anchor": "readme--clone-the-repository",
+      "family": "doc",
+      "kind": "other",
+      "title": "Clone the repository",
+      "file": "README.md",
+      "line": 59,
+      "tag": "Empirical/Declared",
+      "summary": "git clone https://github.com/tzervas/search-box.git"
+    },
+    {
+      "anchor": "readme--install-dependencies",
+      "family": "doc",
+      "kind": "other",
+      "title": "Install dependencies",
+      "file": "README.md",
+      "line": 63,
+      "tag": "Empirical/Declared",
+      "summary": "pip install -r requirements.txt"
+    },
+    {
+      "anchor": "readme--or-using-uv-recommended",
+      "family": "doc",
+      "kind": "other",
+      "title": "Or using uv (recommended)",
+      "file": "README.md",
+      "line": 66,
+      "tag": "Empirical/Declared",
+      "summary": "uv pip install -r requirements.txt"
+    },
+    {
+      "anchor": "readme--usage",
+      "family": "doc",
+      "kind": "section",
+      "title": "Usage",
+      "file": "README.md",
+      "line": 70,
+      "tag": "Empirical/Declared",
+      "summary": "For use with Claude Desktop or local MCP clients:"
+    },
+    {
+      "anchor": "readme--running-the-server",
+      "family": "doc",
+      "kind": "section",
+      "title": "Running the Server",
+      "file": "README.md",
+      "line": 72,
+      "tag": "Empirical/Declared",
+      "summary": "For use with Claude Desktop or local MCP clients:"
+    },
+    {
+      "anchor": "readme--local-stdio-transport",
+      "family": "doc",
+      "kind": "section",
+      "title": "Local (stdio transport)",
+      "file": "README.md",
+      "line": 74,
+      "tag": "Empirical/Declared",
+      "summary": "For use with Claude Desktop or local MCP clients:"
+    },
+    {
+      "anchor": "readme--configuration-for-claude-desktop",
+      "family": "doc",
+      "kind": "section",
+      "title": "Configuration for Claude Desktop",
+      "file": "README.md",
+      "line": 88,
+      "tag": "Empirical/Declared",
+      "summary": "Add to your claudedesktopconfig.json:"
+    },
+    {
+      "anchor": "readme--using-the-tools",
+      "family": "doc",
+      "kind": "section",
+      "title": "Using the Tools",
+      "file": "README.md",
+      "line": 122,
+      "tag": "Empirical/Declared",
+      "summary": "Once connected to Claude Desktop or another MCP client:"
+    },
+    {
+      "anchor": "readme--programmatic-usage",
+      "family": "doc",
+      "kind": "section",
+      "title": "Programmatic Usage",
+      "file": "README.md",
+      "line": 136,
+      "tag": "Empirical/Declared",
+      "summary": "from searchbox import DuckDuckGoProvider, SearxNGProvider"
+    },
+    {
+      "anchor": "readme--initialize-providers",
+      "family": "doc",
+      "kind": "other",
+      "title": "Initialize providers",
+      "file": "README.md",
+      "line": 141,
+      "tag": "Empirical/Declared",
+      "summary": "ddg = DuckDuckGoProvider()"
+    },
+    {
+      "anchor": "readme--perform-searches",
+      "family": "doc",
+      "kind": "other",
+      "title": "Perform searches",
+      "file": "README.md",
+      "line": 145,
+      "tag": "Empirical/Declared",
+      "summary": "results = await ddg.websearch(\"Python async programming\", numresults=5)"
+    },
+    {
+      "anchor": "readme--architecture",
+      "family": "doc",
+      "kind": "section",
+      "title": "Architecture",
+      "file": "README.md",
+      "line": 154,
+      "tag": "Empirical/Declared",
+      "summary": "searchbox/"
+    },
+    {
+      "anchor": "readme--component-overview",
+      "family": "doc",
+      "kind": "section",
+      "title": "Component Overview",
+      "file": "README.md",
+      "line": 156,
+      "tag": "Empirical/Declared",
+      "summary": "searchbox/"
+    },
+    {
+      "anchor": "readme--design-patterns",
+      "family": "doc",
+      "kind": "section",
+      "title": "Design Patterns",
+      "file": "README.md",
+      "line": 167,
+      "tag": "Empirical/Declared",
+      "summary": "1. Adapter Pattern: Abstract SearchProvider base class with provider-specific implementations"
+    },
+    {
+      "anchor": "readme--tool-schema",
+      "family": "doc",
+      "kind": "section",
+      "title": "Tool Schema",
+      "file": "README.md",
+      "line": 174,
+      "tag": "Empirical/Declared",
+      "summary": "All search tools follow this standardized schema:"
+    },
+    {
+      "anchor": "readme--development",
+      "family": "doc",
+      "kind": "section",
+      "title": "Development",
+      "file": "README.md",
+      "line": 193,
+      "tag": "Empirical/Declared",
+      "summary": "pip install -r requirements-dev.txt"
+    },
+    {
+      "anchor": "readme--testing",
+      "family": "doc",
+      "kind": "section",
+      "title": "Testing",
+      "file": "README.md",
+      "line": 195,
+      "tag": "Empirical/Declared",
+      "summary": "pip install -r requirements-dev.txt"
+    },
+    {
+      "anchor": "readme--install-dev-dependencies",
+      "family": "doc",
+      "kind": "other",
+      "title": "Install dev dependencies",
+      "file": "README.md",
+      "line": 198,
+      "tag": "Empirical/Declared",
+      "summary": "pip install -r requirements-dev.txt"
+    },
+    {
+      "anchor": "readme--run-tests-when-implemented",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run tests (when implemented)",
+      "file": "README.md",
+      "line": 201,
+      "tag": "Empirical/Declared",
+      "summary": "pytest tests/"
+    },
+    {
+      "anchor": "readme--adding-a-new-provider",
+      "family": "doc",
+      "kind": "section",
+      "title": "Adding a New Provider",
+      "file": "README.md",
+      "line": 205,
+      "tag": "Empirical/Declared",
+      "summary": "1. Create a new provider class in searchbox/providers/:"
+    },
+    {
+      "anchor": "readme--mcp-specification",
+      "family": "doc",
+      "kind": "section",
+      "title": "MCP Specification",
+      "file": "README.md",
+      "line": 229,
+      "tag": "Empirical/Declared",
+      "summary": "This server implements MCP version 2025-11-25 with:"
+    },
+    {
+      "anchor": "readme--token-efficiency-comparison",
+      "family": "doc",
+      "kind": "section",
+      "title": "Token Efficiency Comparison",
+      "file": "README.md",
+      "line": 237,
+      "tag": "Empirical/Declared",
+      "summary": "Traditional tool use vs. MCP for 3 search tools:"
+    },
+    {
+      "anchor": "readme--security-privacy",
+      "family": "doc",
+      "kind": "section",
+      "title": "Security & Privacy",
+      "file": "README.md",
+      "line": 246,
+      "tag": "Empirical/Declared",
+      "summary": "- No API Keys: All providers are keyless and public"
+    },
+    {
+      "anchor": "readme--limitations",
+      "family": "doc",
+      "kind": "section",
+      "title": "Limitations",
+      "file": "README.md",
+      "line": 253,
+      "tag": "Empirical/Declared",
+      "summary": "- Public SearxNG instances may have rate limits or downtime"
+    },
+    {
+      "anchor": "readme--contributing",
+      "family": "doc",
+      "kind": "section",
+      "title": "Contributing",
+      "file": "README.md",
+      "line": 259,
+      "tag": "Empirical/Declared",
+      "summary": "Contributions are welcome! Please:"
+    },
+    {
+      "anchor": "readme--resources",
+      "family": "doc",
+      "kind": "section",
+      "title": "Resources",
+      "file": "README.md",
+      "line": 268,
+      "tag": "Empirical/Declared",
+      "summary": "- [MCP Official Site](https://modelcontextprotocol.io/)"
+    },
+    {
+      "anchor": "readme--license",
+      "family": "doc",
+      "kind": "section",
+      "title": "License",
+      "file": "README.md",
+      "line": 275,
+      "tag": "Empirical/Declared",
+      "summary": "See LICENSE file for details."
+    },
+    {
+      "anchor": "readme--acknowledgments",
+      "family": "doc",
+      "kind": "section",
+      "title": "Acknowledgments",
+      "file": "README.md",
+      "line": 279,
+      "tag": "Empirical/Declared",
+      "summary": "- Anthropic for the Model Context Protocol specification"
+    },
+    {
+      "anchor": "readme--status-roadmap",
+      "family": "doc",
+      "kind": "section",
+      "title": "Status & roadmap",
+      "file": "README.md",
+      "line": 289,
+      "tag": "Empirical/Declared",
+      "summary": "- [Assessment & gaps](docs/ASSESSMENT.md)"
+    },
+    {
+      "anchor": "assessment",
+      "family": "doc",
+      "kind": "note",
+      "title": "search-box — Assessment & Gap Analysis",
+      "file": "docs/ASSESSMENT.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "Date: 2026-07-08"
+    },
+    {
+      "anchor": "assessment--1.-branch-reality",
+      "family": "doc",
+      "kind": "section",
+      "title": "1. Branch reality",
+      "file": "docs/ASSESSMENT.md",
+      "line": 9,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "assessment--2.-maturity-on-develop-dev-tree-2.53-5",
+      "family": "doc",
+      "kind": "section",
+      "title": "2. Maturity (on develop/dev tree): **~2.5–3 / 5**",
+      "file": "docs/ASSESSMENT.md",
+      "line": 19,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "assessment--3.-gaps",
+      "family": "doc",
+      "kind": "section",
+      "title": "3. Gaps",
+      "file": "docs/ASSESSMENT.md",
+      "line": 32,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "assessment--4.-integration-cabal",
+      "family": "doc",
+      "kind": "section",
+      "title": "4. Integration (cabal)",
+      "file": "docs/ASSESSMENT.md",
+      "line": 45,
+      "tag": "Empirical/Declared",
+      "summary": "Optional search MCP after promote-to-main and schema freeze. Complements webpuppet (no browser for simple search). Not a substitute for Tero corpus search."
+    },
+    {
+      "anchor": "integration",
+      "family": "doc",
+      "kind": "section",
+      "title": "Integration Guide",
+      "file": "docs/INTEGRATION.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "This guide explains how to integrate the Search Box MCP server with various clients and applications."
+    },
+    {
+      "anchor": "integration--overview",
+      "family": "doc",
+      "kind": "section",
+      "title": "Overview",
+      "file": "docs/INTEGRATION.md",
+      "line": 3,
+      "tag": "Empirical/Declared",
+      "summary": "This guide explains how to integrate the Search Box MCP server with various clients and applications."
+    },
+    {
+      "anchor": "integration--claude-desktop-integration",
+      "family": "doc",
+      "kind": "section",
+      "title": "Claude Desktop Integration",
+      "file": "docs/INTEGRATION.md",
+      "line": 7,
+      "tag": "Empirical/Declared",
+      "summary": "- Claude Desktop installed"
+    },
+    {
+      "anchor": "integration--prerequisites",
+      "family": "doc",
+      "kind": "section",
+      "title": "Prerequisites",
+      "file": "docs/INTEGRATION.md",
+      "line": 9,
+      "tag": "Empirical/Declared",
+      "summary": "- Claude Desktop installed"
+    },
+    {
+      "anchor": "integration--configuration",
+      "family": "doc",
+      "kind": "section",
+      "title": "Configuration",
+      "file": "docs/INTEGRATION.md",
+      "line": 15,
+      "tag": "Empirical/Declared",
+      "summary": "1. Locate your Claude Desktop config file:"
+    },
+    {
+      "anchor": "integration--verification",
+      "family": "doc",
+      "kind": "section",
+      "title": "Verification",
+      "file": "docs/INTEGRATION.md",
+      "line": 40,
+      "tag": "Empirical/Declared",
+      "summary": "1. Open Claude Desktop"
+    },
+    {
+      "anchor": "integration--troubleshooting",
+      "family": "doc",
+      "kind": "section",
+      "title": "Troubleshooting",
+      "file": "docs/INTEGRATION.md",
+      "line": 48,
+      "tag": "Empirical/Declared",
+      "summary": "Issue: Server not connecting"
+    },
+    {
+      "anchor": "integration--custom-mcp-client-integration",
+      "family": "doc",
+      "kind": "section",
+      "title": "Custom MCP Client Integration",
+      "file": "docs/INTEGRATION.md",
+      "line": 60,
+      "tag": "Empirical/Declared",
+      "summary": "import asyncio"
+    },
+    {
+      "anchor": "integration--using-python-sdk",
+      "family": "doc",
+      "kind": "section",
+      "title": "Using Python SDK",
+      "file": "docs/INTEGRATION.md",
+      "line": 62,
+      "tag": "Empirical/Declared",
+      "summary": "import asyncio"
+    },
+    {
+      "anchor": "integration--using-http-transport",
+      "family": "doc",
+      "kind": "section",
+      "title": "Using HTTP Transport",
+      "file": "docs/INTEGRATION.md",
+      "line": 101,
+      "tag": "Empirical/Declared",
+      "summary": "For remote deployments, modify searchbox/server.py:"
+    },
+    {
+      "anchor": "integration--change-transport-to-streamable-http",
+      "family": "doc",
+      "kind": "other",
+      "title": "Change transport to streamable-http",
+      "file": "docs/INTEGRATION.md",
+      "line": 106,
+      "tag": "Empirical/Declared",
+      "summary": "def main():"
+    },
+    {
+      "anchor": "integration--api-integration",
+      "family": "doc",
+      "kind": "section",
+      "title": "API Integration",
+      "file": "docs/INTEGRATION.md",
+      "line": 124,
+      "tag": "Empirical/Declared",
+      "summary": "For non-MCP applications:"
+    },
+    {
+      "anchor": "integration--direct-provider-usage",
+      "family": "doc",
+      "kind": "section",
+      "title": "Direct Provider Usage",
+      "file": "docs/INTEGRATION.md",
+      "line": 126,
+      "tag": "Empirical/Declared",
+      "summary": "For non-MCP applications:"
+    },
+    {
+      "anchor": "integration--in-your-async-application",
+      "family": "doc",
+      "kind": "other",
+      "title": "In your async application",
+      "file": "docs/INTEGRATION.md",
+      "line": 151,
+      "tag": "Empirical/Declared",
+      "summary": "asyncio.run(integratesearch())"
+    },
+    {
+      "anchor": "integration--flask-fastapi-integration",
+      "family": "doc",
+      "kind": "section",
+      "title": "Flask/FastAPI Integration",
+      "file": "docs/INTEGRATION.md",
+      "line": 155,
+      "tag": "Empirical/Declared",
+      "summary": "from fastapi import FastAPI, HTTPException"
+    },
+    {
+      "anchor": "integration--docker-integration",
+      "family": "doc",
+      "kind": "section",
+      "title": "Docker Integration",
+      "file": "docs/INTEGRATION.md",
+      "line": 194,
+      "tag": "Empirical/Declared",
+      "summary": "FROM python:3.12-slim"
+    },
+    {
+      "anchor": "integration--dockerfile",
+      "family": "doc",
+      "kind": "section",
+      "title": "Dockerfile",
+      "file": "docs/INTEGRATION.md",
+      "line": 196,
+      "tag": "Empirical/Declared",
+      "summary": "FROM python:3.12-slim"
+    },
+    {
+      "anchor": "integration--install-dependencies",
+      "family": "doc",
+      "kind": "other",
+      "title": "Install dependencies",
+      "file": "docs/INTEGRATION.md",
+      "line": 203,
+      "tag": "Empirical/Declared",
+      "summary": "COPY requirements.txt ."
+    },
+    {
+      "anchor": "integration--copy-application",
+      "family": "doc",
+      "kind": "other",
+      "title": "Copy application",
+      "file": "docs/INTEGRATION.md",
+      "line": 207,
+      "tag": "Empirical/Declared",
+      "summary": "COPY searchbox/ ./searchbox/"
+    },
+    {
+      "anchor": "integration--run-server",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run server",
+      "file": "docs/INTEGRATION.md",
+      "line": 211,
+      "tag": "Empirical/Declared",
+      "summary": "CMD [\"python\", \"main.py\"]"
+    },
+    {
+      "anchor": "integration--docker-compose",
+      "family": "doc",
+      "kind": "section",
+      "title": "Docker Compose",
+      "file": "docs/INTEGRATION.md",
+      "line": 215,
+      "tag": "Empirical/Declared",
+      "summary": "version: '3.8'"
+    },
+    {
+      "anchor": "integration--build-and-run",
+      "family": "doc",
+      "kind": "section",
+      "title": "Build and Run",
+      "file": "docs/INTEGRATION.md",
+      "line": 230,
+      "tag": "Empirical/Declared",
+      "summary": "docker build -t search-box ."
+    },
+    {
+      "anchor": "integration--build-image",
+      "family": "doc",
+      "kind": "other",
+      "title": "Build image",
+      "file": "docs/INTEGRATION.md",
+      "line": 233,
+      "tag": "Empirical/Declared",
+      "summary": "docker build -t search-box ."
+    },
+    {
+      "anchor": "integration--run-container",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run container",
+      "file": "docs/INTEGRATION.md",
+      "line": 236,
+      "tag": "Empirical/Declared",
+      "summary": "docker run -p 8000:8000 search-box"
+    },
+    {
+      "anchor": "integration--with-docker-compose",
+      "family": "doc",
+      "kind": "other",
+      "title": "With docker-compose",
+      "file": "docs/INTEGRATION.md",
+      "line": 239,
+      "tag": "Empirical/Declared",
+      "summary": "docker-compose up -d"
+    },
+    {
+      "anchor": "integration--environment-variables",
+      "family": "doc",
+      "kind": "section",
+      "title": "Environment Variables",
+      "file": "docs/INTEGRATION.md",
+      "line": 243,
+      "tag": "Empirical/Declared",
+      "summary": "Configure via environment variables:"
+    },
+    {
+      "anchor": "integration--provider-settings",
+      "family": "doc",
+      "kind": "other",
+      "title": "Provider settings",
+      "file": "docs/INTEGRATION.md",
+      "line": 248,
+      "tag": "Empirical/Declared",
+      "summary": "export SEARXNGINSTANCE=\"https://searx.be\""
+    },
+    {
+      "anchor": "integration--server-settings",
+      "family": "doc",
+      "kind": "other",
+      "title": "Server settings",
+      "file": "docs/INTEGRATION.md",
+      "line": 252,
+      "tag": "Empirical/Declared",
+      "summary": "export MCPSERVERPORT=\"8000\""
+    },
+    {
+      "anchor": "integration--logging",
+      "family": "doc",
+      "kind": "other",
+      "title": "Logging",
+      "file": "docs/INTEGRATION.md",
+      "line": 256,
+      "tag": "Empirical/Declared",
+      "summary": "export LOGLEVEL=\"INFO\""
+    },
+    {
+      "anchor": "integration--in-server.py",
+      "family": "doc",
+      "kind": "other",
+      "title": "In server.py",
+      "file": "docs/INTEGRATION.md",
+      "line": 265,
+      "tag": "Empirical/Declared",
+      "summary": "searxnginstance = os.getenv(\"SEARXNGINSTANCE\", \"https://searx.be\")"
+    },
+    {
+      "anchor": "integration--production-deployment",
+      "family": "doc",
+      "kind": "section",
+      "title": "Production Deployment",
+      "file": "docs/INTEGRATION.md",
+      "line": 270,
+      "tag": "Empirical/Declared",
+      "summary": "server {"
+    },
+    {
+      "anchor": "integration--nginx-reverse-proxy",
+      "family": "doc",
+      "kind": "section",
+      "title": "Nginx Reverse Proxy",
+      "file": "docs/INTEGRATION.md",
+      "line": 272,
+      "tag": "Empirical/Declared",
+      "summary": "server {"
+    },
+    {
+      "anchor": "integration--systemd-service",
+      "family": "doc",
+      "kind": "section",
+      "title": "Systemd Service",
+      "file": "docs/INTEGRATION.md",
+      "line": 293,
+      "tag": "Empirical/Declared",
+      "summary": "[Unit]"
+    },
+    {
+      "anchor": "integration--monitoring",
+      "family": "doc",
+      "kind": "section",
+      "title": "Monitoring",
+      "file": "docs/INTEGRATION.md",
+      "line": 312,
+      "tag": "Empirical/Declared",
+      "summary": "Add to server.py:"
+    },
+    {
+      "anchor": "integration--health-check-endpoint",
+      "family": "doc",
+      "kind": "section",
+      "title": "Health Check Endpoint",
+      "file": "docs/INTEGRATION.md",
+      "line": 314,
+      "tag": "Empirical/Declared",
+      "summary": "Add to server.py:"
+    },
+    {
+      "anchor": "integration--logging-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Logging",
+      "file": "docs/INTEGRATION.md",
+      "line": 325,
+      "tag": "Empirical/Declared",
+      "summary": "import logging"
+    },
+    {
+      "anchor": "integration--metrics",
+      "family": "doc",
+      "kind": "section",
+      "title": "Metrics",
+      "file": "docs/INTEGRATION.md",
+      "line": 340,
+      "tag": "Empirical/Declared",
+      "summary": "from prometheusclient import Counter, Histogram"
+    },
+    {
+      "anchor": "integration--in-tool-function",
+      "family": "doc",
+      "kind": "other",
+      "title": "In tool function",
+      "file": "docs/INTEGRATION.md",
+      "line": 348,
+      "tag": "Empirical/Declared",
+      "summary": "@searchduration.time()"
+    },
+    {
+      "anchor": "integration--security-considerations",
+      "family": "doc",
+      "kind": "section",
+      "title": "Security Considerations",
+      "file": "docs/INTEGRATION.md",
+      "line": 355,
+      "tag": "Empirical/Declared",
+      "summary": "- [ ] Enable HTTPS/TLS"
+    },
+    {
+      "anchor": "integration--production-checklist",
+      "family": "doc",
+      "kind": "section",
+      "title": "Production Checklist",
+      "file": "docs/INTEGRATION.md",
+      "line": 357,
+      "tag": "Empirical/Declared",
+      "summary": "- [ ] Enable HTTPS/TLS"
+    },
+    {
+      "anchor": "integration--authentication",
+      "family": "doc",
+      "kind": "section",
+      "title": "Authentication",
+      "file": "docs/INTEGRATION.md",
+      "line": 368,
+      "tag": "Empirical/Declared",
+      "summary": "For HTTP transport, add API key:"
+    },
+    {
+      "anchor": "integration--add-dependency-to-endpoint",
+      "family": "doc",
+      "kind": "other",
+      "title": "Add dependency to endpoint",
+      "file": "docs/INTEGRATION.md",
+      "line": 379,
+      "tag": "Empirical/Declared",
+      "summary": "@app.post(\"/search\", dependencies=[Depends(verifyapikey)])"
+    },
+    {
+      "anchor": "integration--best-practices",
+      "family": "doc",
+      "kind": "section",
+      "title": "Best Practices",
+      "file": "docs/INTEGRATION.md",
+      "line": 385,
+      "tag": "Empirical/Declared",
+      "summary": "1. Use Connection Pooling: Reuse HTTP clients across requests"
+    },
+    {
+      "anchor": "integration--examples-repository",
+      "family": "doc",
+      "kind": "section",
+      "title": "Examples Repository",
+      "file": "docs/INTEGRATION.md",
+      "line": 395,
+      "tag": "Empirical/Declared",
+      "summary": "See /examples/ directory for more integration examples:"
+    },
+    {
+      "anchor": "integration--support",
+      "family": "doc",
+      "kind": "section",
+      "title": "Support",
+      "file": "docs/INTEGRATION.md",
+      "line": 404,
+      "tag": "Empirical/Declared",
+      "summary": "For integration issues:"
+    },
+    {
+      "anchor": "integration--resources",
+      "family": "doc",
+      "kind": "section",
+      "title": "Resources",
+      "file": "docs/INTEGRATION.md",
+      "line": 412,
+      "tag": "Empirical/Declared",
+      "summary": "- [MCP Specification](https://modelcontextprotocol.io/)"
+    },
+    {
+      "anchor": "readme-2",
+      "family": "doc",
+      "kind": "other",
+      "title": "README",
+      "file": "docs/README.md",
+      "line": 1,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "roadmap",
+      "family": "doc",
+      "kind": "note",
+      "title": "search-box — Product Roadmap",
+      "file": "docs/ROADMAP.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "status": "Living (2026-07-08)",
+      "summary": "Status: Living (2026-07-08)"
+    },
+    {
+      "anchor": "roadmap--waves",
+      "family": "doc",
+      "kind": "section",
+      "title": "Waves",
+      "file": "docs/ROADMAP.md",
+      "line": 11,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "roadmap--wave-a-unify-branches-freeze-mvp",
+      "family": "doc",
+      "kind": "section",
+      "title": "Wave A — Unify branches & freeze MVP",
+      "file": "docs/ROADMAP.md",
+      "line": 13,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "roadmap--wave-b-providers-resilience",
+      "family": "doc",
+      "kind": "section",
+      "title": "Wave B — Providers & resilience",
+      "file": "docs/ROADMAP.md",
+      "line": 23,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "roadmap--wave-c-agent-product",
+      "family": "doc",
+      "kind": "section",
+      "title": "Wave C — Agent product",
+      "file": "docs/ROADMAP.md",
+      "line": 33,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "roadmap--api-plan",
+      "family": "doc",
+      "kind": "section",
+      "title": "API plan",
+      "file": "docs/ROADMAP.md",
+      "line": 44,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "roadmap--mcp-tools-target-v0.1",
+      "family": "doc",
+      "kind": "section",
+      "title": "MCP tools (target v0.1)",
+      "file": "docs/ROADMAP.md",
+      "line": 46,
+      "tag": "Empirical/Declared",
+      "summary": "{"
+    },
+    {
+      "anchor": "roadmap--result-envelope",
+      "family": "doc",
+      "kind": "section",
+      "title": "Result envelope",
+      "file": "docs/ROADMAP.md",
+      "line": 54,
+      "tag": "Empirical/Declared",
+      "summary": "{"
+    },
+    {
+      "anchor": "roadmap--config",
+      "family": "doc",
+      "kind": "section",
+      "title": "Config",
+      "file": "docs/ROADMAP.md",
+      "line": 72,
+      "tag": "Empirical/Declared",
+      "summary": "defaultproviders = [\"duckduckgo\", \"searxng\"]"
+    },
+    {
+      "anchor": "roadmap--search-box.toml",
+      "family": "doc",
+      "kind": "other",
+      "title": "search-box.toml",
+      "file": "docs/ROADMAP.md",
+      "line": 75,
+      "tag": "Empirical/Declared",
+      "summary": "defaultproviders = [\"duckduckgo\", \"searxng\"]"
+    },
+    {
+      "anchor": "roadmap--python-package-entry",
+      "family": "doc",
+      "kind": "section",
+      "title": "Python package entry",
+      "file": "docs/ROADMAP.md",
+      "line": 86,
+      "tag": "Empirical/Declared",
+      "summary": "search-box          # CLI"
+    },
+    {
+      "anchor": "roadmap--pr-plan",
+      "family": "doc",
+      "kind": "section",
+      "title": "PR plan",
+      "file": "docs/ROADMAP.md",
+      "line": 95,
+      "tag": "Empirical/Declared",
+      "summary": "1. Docs assessment + roadmap on dev"
+    },
+    {
+      "anchor": "roadmap--non-goals",
+      "family": "doc",
+      "kind": "section",
+      "title": "Non-goals",
+      "file": "docs/ROADMAP.md",
+      "line": 106,
+      "tag": "Empirical/Declared",
+      "summary": "- Scraping behind logins by default"
+    },
+    {
+      "anchor": "readme-3",
+      "family": "doc",
+      "kind": "other",
+      "title": "Search Box API Documentation",
+      "file": "docs/api/README.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "Abstract base class for all search providers."
+    },
+    {
+      "anchor": "readme--base-classes",
+      "family": "doc",
+      "kind": "section",
+      "title": "Base Classes",
+      "file": "docs/api/README.md",
+      "line": 3,
+      "tag": "Empirical/Declared",
+      "summary": "Abstract base class for all search providers."
+    },
+    {
+      "anchor": "readme--searchprovider",
+      "family": "doc",
+      "kind": "section",
+      "title": "SearchProvider",
+      "file": "docs/api/README.md",
+      "line": 5,
+      "tag": "Empirical/Declared",
+      "summary": "Abstract base class for all search providers."
+    },
+    {
+      "anchor": "readme--methods",
+      "family": "doc",
+      "kind": "section",
+      "title": "Methods",
+      "file": "docs/api/README.md",
+      "line": 18,
+      "tag": "Empirical/Declared",
+      "summary": "Initialize the provider with a unique name."
+    },
+    {
+      "anchor": "readme--initname-str",
+      "family": "doc",
+      "kind": "section",
+      "title": "`__init__(name: str)`",
+      "file": "docs/api/README.md",
+      "line": 20,
+      "tag": "Empirical/Declared",
+      "summary": "Initialize the provider with a unique name."
+    },
+    {
+      "anchor": "readme--websearchquery-str-numresults-int-10-listsearchresult-abstract",
+      "family": "doc",
+      "kind": "section",
+      "title": "`web_search(query: str, num_results: int = 10) -> list[SearchResult]` (abstract)",
+      "file": "docs/api/README.md",
+      "line": 23,
+      "tag": "Empirical/Declared",
+      "summary": "Perform a web search and return normalized results."
+    },
+    {
+      "anchor": "readme--getproviderinfo-dict",
+      "family": "doc",
+      "kind": "section",
+      "title": "`get_provider_info() -> dict`",
+      "file": "docs/api/README.md",
+      "line": 37,
+      "tag": "Empirical/Declared",
+      "summary": "Get provider metadata."
+    },
+    {
+      "anchor": "readme--searchresult",
+      "family": "doc",
+      "kind": "section",
+      "title": "SearchResult",
+      "file": "docs/api/README.md",
+      "line": 43,
+      "tag": "Empirical/Declared",
+      "summary": "Dataclass representing a standardized search result."
+    },
+    {
+      "anchor": "readme--providers",
+      "family": "doc",
+      "kind": "section",
+      "title": "Providers",
+      "file": "docs/api/README.md",
+      "line": 62,
+      "tag": "Empirical/Declared",
+      "summary": "Provider for DuckDuckGo search using anonymous HTML scraping."
+    },
+    {
+      "anchor": "readme--duckduckgoprovider",
+      "family": "doc",
+      "kind": "section",
+      "title": "DuckDuckGoProvider",
+      "file": "docs/api/README.md",
+      "line": 64,
+      "tag": "Empirical/Declared",
+      "summary": "Provider for DuckDuckGo search using anonymous HTML scraping."
+    },
+    {
+      "anchor": "readme--searxngprovider",
+      "family": "doc",
+      "kind": "section",
+      "title": "SearxNGProvider",
+      "file": "docs/api/README.md",
+      "line": 86,
+      "tag": "Empirical/Declared",
+      "summary": "Provider for SearxNG meta-search using public instances."
+    },
+    {
+      "anchor": "readme--mcp-server",
+      "family": "doc",
+      "kind": "section",
+      "title": "MCP Server",
+      "file": "docs/api/README.md",
+      "line": 116,
+      "tag": "Empirical/Declared",
+      "summary": "from searchbox.server import main"
+    },
+    {
+      "anchor": "readme--running-the-server-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Running the Server",
+      "file": "docs/api/README.md",
+      "line": 118,
+      "tag": "Empirical/Declared",
+      "summary": "from searchbox.server import main"
+    },
+    {
+      "anchor": "readme--available-tools",
+      "family": "doc",
+      "kind": "section",
+      "title": "Available Tools",
+      "file": "docs/api/README.md",
+      "line": 126,
+      "tag": "Empirical/Declared",
+      "summary": "Fast general web search via DuckDuckGo."
+    },
+    {
+      "anchor": "readme--websearchduckduckgoquery-str-numresults-int-10-str",
+      "family": "doc",
+      "kind": "section",
+      "title": "web_search_duckduckgo(query: str, num_results: int = 10) -> str",
+      "file": "docs/api/README.md",
+      "line": 128,
+      "tag": "Empirical/Declared",
+      "summary": "Fast general web search via DuckDuckGo."
+    },
+    {
+      "anchor": "readme--websearchsearxngprimaryquery-str-numresults-int-10-str",
+      "family": "doc",
+      "kind": "section",
+      "title": "web_search_searxng_primary(query: str, num_results: int = 10) -> str",
+      "file": "docs/api/README.md",
+      "line": 132,
+      "tag": "Empirical/Declared",
+      "summary": "Meta-search via SearxNG primary instance (searx.be)."
+    },
+    {
+      "anchor": "readme--websearchsearxngsecondaryquery-str-numresults-int-10-str",
+      "family": "doc",
+      "kind": "section",
+      "title": "web_search_searxng_secondary(query: str, num_results: int = 10) -> str",
+      "file": "docs/api/README.md",
+      "line": 136,
+      "tag": "Empirical/Declared",
+      "summary": "Meta-search via SearxNG secondary instance (search.bus-hit.me)."
+    },
+    {
+      "anchor": "readme--available-resources",
+      "family": "doc",
+      "kind": "section",
+      "title": "Available Resources",
+      "file": "docs/api/README.md",
+      "line": 140,
+      "tag": "Empirical/Declared",
+      "summary": "Returns markdown documentation of available search tools and their features."
+    },
+    {
+      "anchor": "readme--search-available-tools",
+      "family": "doc",
+      "kind": "section",
+      "title": "search://available-tools",
+      "file": "docs/api/README.md",
+      "line": 142,
+      "tag": "Empirical/Declared",
+      "summary": "Returns markdown documentation of available search tools and their features."
+    },
+    {
+      "anchor": "readme--usage-examples",
+      "family": "doc",
+      "kind": "section",
+      "title": "Usage Examples",
+      "file": "docs/api/README.md",
+      "line": 146,
+      "tag": "Empirical/Declared",
+      "summary": "import asyncio"
+    },
+    {
+      "anchor": "readme--programmatic-usage-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Programmatic Usage",
+      "file": "docs/api/README.md",
+      "line": 148,
+      "tag": "Empirical/Declared",
+      "summary": "import asyncio"
+    },
+    {
+      "anchor": "readme--token-efficiency",
+      "family": "doc",
+      "kind": "section",
+      "title": "Token Efficiency",
+      "file": "docs/api/README.md",
+      "line": 179,
+      "tag": "Empirical/Declared",
+      "summary": "When using the MCP server with Claude:"
+    },
+    {
+      "anchor": "readme-4",
+      "family": "doc",
+      "kind": "other",
+      "title": "Development Guide",
+      "file": "docs/development/README.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "- Python 3.12+"
+    },
+    {
+      "anchor": "readme--setup-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Setup",
+      "file": "docs/development/README.md",
+      "line": 3,
+      "tag": "Empirical/Declared",
+      "summary": "- Python 3.12+"
+    },
+    {
+      "anchor": "readme--prerequisites",
+      "family": "doc",
+      "kind": "section",
+      "title": "Prerequisites",
+      "file": "docs/development/README.md",
+      "line": 5,
+      "tag": "Empirical/Declared",
+      "summary": "- Python 3.12+"
+    },
+    {
+      "anchor": "readme--local-development-setup",
+      "family": "doc",
+      "kind": "section",
+      "title": "Local Development Setup",
+      "file": "docs/development/README.md",
+      "line": 11,
+      "tag": "Empirical/Declared",
+      "summary": "git clone https://github.com/tzervas/search-box.git"
+    },
+    {
+      "anchor": "readme--clone-repository",
+      "family": "doc",
+      "kind": "other",
+      "title": "Clone repository",
+      "file": "docs/development/README.md",
+      "line": 14,
+      "tag": "Empirical/Declared",
+      "summary": "git clone https://github.com/tzervas/search-box.git"
+    },
+    {
+      "anchor": "readme--create-virtual-environment",
+      "family": "doc",
+      "kind": "other",
+      "title": "Create virtual environment",
+      "file": "docs/development/README.md",
+      "line": 18,
+      "tag": "Empirical/Declared",
+      "summary": "python -m venv .venv"
+    },
+    {
+      "anchor": "readme--install-dependencies-2",
+      "family": "doc",
+      "kind": "other",
+      "title": "Install dependencies",
+      "file": "docs/development/README.md",
+      "line": 22,
+      "tag": "Empirical/Declared",
+      "summary": "pip install -r requirements.txt"
+    },
+    {
+      "anchor": "readme--verify-installation",
+      "family": "doc",
+      "kind": "other",
+      "title": "Verify installation",
+      "file": "docs/development/README.md",
+      "line": 26,
+      "tag": "Empirical/Declared",
+      "summary": "python -c \"import searchbox; print('Success')\""
+    },
+    {
+      "anchor": "readme--project-structure",
+      "family": "doc",
+      "kind": "section",
+      "title": "Project Structure",
+      "file": "docs/development/README.md",
+      "line": 30,
+      "tag": "Empirical/Declared",
+      "summary": "search-box/"
+    },
+    {
+      "anchor": "readme--running-tests",
+      "family": "doc",
+      "kind": "section",
+      "title": "Running Tests",
+      "file": "docs/development/README.md",
+      "line": 53,
+      "tag": "Empirical/Declared",
+      "summary": "pytest"
+    },
+    {
+      "anchor": "readme--run-all-tests",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run all tests",
+      "file": "docs/development/README.md",
+      "line": 56,
+      "tag": "Empirical/Declared",
+      "summary": "pytest"
+    },
+    {
+      "anchor": "readme--run-with-verbose-output",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run with verbose output",
+      "file": "docs/development/README.md",
+      "line": 59,
+      "tag": "Empirical/Declared",
+      "summary": "pytest -v"
+    },
+    {
+      "anchor": "readme--run-specific-test-file",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run specific test file",
+      "file": "docs/development/README.md",
+      "line": 62,
+      "tag": "Empirical/Declared",
+      "summary": "pytest tests/testproviders.py"
+    },
+    {
+      "anchor": "readme--run-specific-test",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run specific test",
+      "file": "docs/development/README.md",
+      "line": 65,
+      "tag": "Empirical/Declared",
+      "summary": "pytest tests/testproviders.py::testduckduckgoprovidersuccess"
+    },
+    {
+      "anchor": "readme--run-with-coverage",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run with coverage",
+      "file": "docs/development/README.md",
+      "line": 68,
+      "tag": "Empirical/Declared",
+      "summary": "pytest --cov=searchbox --cov-report=html"
+    },
+    {
+      "anchor": "readme--adding-a-new-provider-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Adding a New Provider",
+      "file": "docs/development/README.md",
+      "line": 73,
+      "tag": "Empirical/Declared",
+      "summary": "Create a new file in searchbox/providers/:"
+    },
+    {
+      "anchor": "readme--1.-create-provider-class",
+      "family": "doc",
+      "kind": "section",
+      "title": "1. Create Provider Class",
+      "file": "docs/development/README.md",
+      "line": 75,
+      "tag": "Empirical/Declared",
+      "summary": "Create a new file in searchbox/providers/:"
+    },
+    {
+      "anchor": "readme--searchbox-providers-newprovider.py",
+      "family": "doc",
+      "kind": "other",
+      "title": "search_box/providers/newprovider.py",
+      "file": "docs/development/README.md",
+      "line": 80,
+      "tag": "Empirical/Declared",
+      "summary": "from ..base import SearchProvider, SearchResult"
+    },
+    {
+      "anchor": "readme--2.-register-in-init.py",
+      "family": "doc",
+      "kind": "section",
+      "title": "2. Register in __init__.py",
+      "file": "docs/development/README.md",
+      "line": 120,
+      "tag": "Empirical/Declared",
+      "summary": "from .newprovider import NewProvider"
+    },
+    {
+      "anchor": "readme--searchbox-providers-init.py",
+      "family": "doc",
+      "kind": "other",
+      "title": "search_box/providers/__init__.py",
+      "file": "docs/development/README.md",
+      "line": 123,
+      "tag": "Empirical/Declared",
+      "summary": "from .newprovider import NewProvider"
+    },
+    {
+      "anchor": "readme--3.-add-to-mcp-server",
+      "family": "doc",
+      "kind": "section",
+      "title": "3. Add to MCP Server",
+      "file": "docs/development/README.md",
+      "line": 130,
+      "tag": "Empirical/Declared",
+      "summary": "from searchbox.providers import NewProvider"
+    },
+    {
+      "anchor": "readme--searchbox-server.py",
+      "family": "doc",
+      "kind": "other",
+      "title": "search_box/server.py",
+      "file": "docs/development/README.md",
+      "line": 133,
+      "tag": "Empirical/Declared",
+      "summary": "from searchbox.providers import NewProvider"
+    },
+    {
+      "anchor": "readme--4.-write-tests",
+      "family": "doc",
+      "kind": "section",
+      "title": "4. Write Tests",
+      "file": "docs/development/README.md",
+      "line": 150,
+      "tag": "Empirical/Declared",
+      "summary": "import pytest"
+    },
+    {
+      "anchor": "readme--tests-testnewprovider.py",
+      "family": "doc",
+      "kind": "other",
+      "title": "tests/test_newprovider.py",
+      "file": "docs/development/README.md",
+      "line": 153,
+      "tag": "Empirical/Declared",
+      "summary": "import pytest"
+    },
+    {
+      "anchor": "readme--code-style",
+      "family": "doc",
+      "kind": "section",
+      "title": "Code Style",
+      "file": "docs/development/README.md",
+      "line": 176,
+      "tag": "Empirical/Declared",
+      "summary": "- Use 4 spaces for indentation"
+    },
+    {
+      "anchor": "readme--formatting",
+      "family": "doc",
+      "kind": "section",
+      "title": "Formatting",
+      "file": "docs/development/README.md",
+      "line": 178,
+      "tag": "Empirical/Declared",
+      "summary": "- Use 4 spaces for indentation"
+    },
+    {
+      "anchor": "readme--docstrings",
+      "family": "doc",
+      "kind": "section",
+      "title": "Docstrings",
+      "file": "docs/development/README.md",
+      "line": 185,
+      "tag": "Empirical/Declared",
+      "summary": "Use Google-style docstrings:"
+    },
+    {
+      "anchor": "readme--debugging",
+      "family": "doc",
+      "kind": "section",
+      "title": "Debugging",
+      "file": "docs/development/README.md",
+      "line": 209,
+      "tag": "Empirical/Declared",
+      "summary": "import logging"
+    },
+    {
+      "anchor": "readme--enable-debug-logging",
+      "family": "doc",
+      "kind": "section",
+      "title": "Enable Debug Logging",
+      "file": "docs/development/README.md",
+      "line": 211,
+      "tag": "Empirical/Declared",
+      "summary": "import logging"
+    },
+    {
+      "anchor": "readme--interactive-testing",
+      "family": "doc",
+      "kind": "section",
+      "title": "Interactive Testing",
+      "file": "docs/development/README.md",
+      "line": 222,
+      "tag": "Empirical/Declared",
+      "summary": "import asyncio"
+    },
+    {
+      "anchor": "readme--common-tasks",
+      "family": "doc",
+      "kind": "section",
+      "title": "Common Tasks",
+      "file": "docs/development/README.md",
+      "line": 240,
+      "tag": "Empirical/Declared",
+      "summary": "pip install --upgrade -r requirements.txt"
+    },
+    {
+      "anchor": "readme--update-dependencies",
+      "family": "doc",
+      "kind": "section",
+      "title": "Update Dependencies",
+      "file": "docs/development/README.md",
+      "line": 242,
+      "tag": "Empirical/Declared",
+      "summary": "pip install --upgrade -r requirements.txt"
+    },
+    {
+      "anchor": "readme--update-to-latest-compatible-versions",
+      "family": "doc",
+      "kind": "other",
+      "title": "Update to latest compatible versions",
+      "file": "docs/development/README.md",
+      "line": 245,
+      "tag": "Empirical/Declared",
+      "summary": "pip install --upgrade -r requirements.txt"
+    },
+    {
+      "anchor": "readme--freeze-current-versions",
+      "family": "doc",
+      "kind": "other",
+      "title": "Freeze current versions",
+      "file": "docs/development/README.md",
+      "line": 248,
+      "tag": "Empirical/Declared",
+      "summary": "pip freeze > requirements.txt"
+    },
+    {
+      "anchor": "readme--build-package",
+      "family": "doc",
+      "kind": "section",
+      "title": "Build Package",
+      "file": "docs/development/README.md",
+      "line": 252,
+      "tag": "Empirical/Declared",
+      "summary": "pip install build"
+    },
+    {
+      "anchor": "readme--install-build-tools",
+      "family": "doc",
+      "kind": "other",
+      "title": "Install build tools",
+      "file": "docs/development/README.md",
+      "line": 255,
+      "tag": "Empirical/Declared",
+      "summary": "pip install build"
+    },
+    {
+      "anchor": "readme--build-distributions",
+      "family": "doc",
+      "kind": "other",
+      "title": "Build distributions",
+      "file": "docs/development/README.md",
+      "line": 258,
+      "tag": "Empirical/Declared",
+      "summary": "python -m build"
+    },
+    {
+      "anchor": "readme--check-build",
+      "family": "doc",
+      "kind": "other",
+      "title": "Check build",
+      "file": "docs/development/README.md",
+      "line": 261,
+      "tag": "Empirical/Declared",
+      "summary": "ls dist/"
+    },
+    {
+      "anchor": "readme--run-mcp-server-locally",
+      "family": "doc",
+      "kind": "section",
+      "title": "Run MCP Server Locally",
+      "file": "docs/development/README.md",
+      "line": 265,
+      "tag": "Empirical/Declared",
+      "summary": "python main.py"
+    },
+    {
+      "anchor": "readme--with-stdio-transport",
+      "family": "doc",
+      "kind": "other",
+      "title": "With stdio transport",
+      "file": "docs/development/README.md",
+      "line": 268,
+      "tag": "Empirical/Declared",
+      "summary": "python main.py"
+    },
+    {
+      "anchor": "readme--or-module-syntax",
+      "family": "doc",
+      "kind": "other",
+      "title": "Or module syntax",
+      "file": "docs/development/README.md",
+      "line": 271,
+      "tag": "Empirical/Declared",
+      "summary": "python -m searchbox.server"
+    },
+    {
+      "anchor": "readme--best-practices",
+      "family": "doc",
+      "kind": "section",
+      "title": "Best Practices",
+      "file": "docs/development/README.md",
+      "line": 275,
+      "tag": "Empirical/Declared",
+      "summary": "1. Always write tests for new features"
+    },
+    {
+      "anchor": "readme--troubleshooting",
+      "family": "doc",
+      "kind": "section",
+      "title": "Troubleshooting",
+      "file": "docs/development/README.md",
+      "line": 286,
+      "tag": "Empirical/Declared",
+      "summary": "export PYTHONPATH=/path/to/search-box:$PYTHONPATH"
+    },
+    {
+      "anchor": "readme--import-errors",
+      "family": "doc",
+      "kind": "section",
+      "title": "Import Errors",
+      "file": "docs/development/README.md",
+      "line": 288,
+      "tag": "Empirical/Declared",
+      "summary": "export PYTHONPATH=/path/to/search-box:$PYTHONPATH"
+    },
+    {
+      "anchor": "readme--ensure-package-is-in-python-path",
+      "family": "doc",
+      "kind": "other",
+      "title": "Ensure package is in Python path",
+      "file": "docs/development/README.md",
+      "line": 291,
+      "tag": "Empirical/Declared",
+      "summary": "export PYTHONPATH=/path/to/search-box:$PYTHONPATH"
+    },
+    {
+      "anchor": "readme--or-install-in-development-mode",
+      "family": "doc",
+      "kind": "other",
+      "title": "Or install in development mode",
+      "file": "docs/development/README.md",
+      "line": 294,
+      "tag": "Empirical/Declared",
+      "summary": "pip install -e ."
+    },
+    {
+      "anchor": "readme--test-failures",
+      "family": "doc",
+      "kind": "section",
+      "title": "Test Failures",
+      "file": "docs/development/README.md",
+      "line": 298,
+      "tag": "Empirical/Declared",
+      "summary": "pytest -vv --tb=long"
+    },
+    {
+      "anchor": "readme--run-tests-with-more-verbose-output",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run tests with more verbose output",
+      "file": "docs/development/README.md",
+      "line": 301,
+      "tag": "Empirical/Declared",
+      "summary": "pytest -vv --tb=long"
+    },
+    {
+      "anchor": "readme--run-single-test-for-debugging",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run single test for debugging",
+      "file": "docs/development/README.md",
+      "line": 304,
+      "tag": "Empirical/Declared",
+      "summary": "pytest tests/testproviders.py::testname -s"
+    },
+    {
+      "anchor": "readme--contributing-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Contributing",
+      "file": "docs/development/README.md",
+      "line": 308,
+      "tag": "Empirical/Declared",
+      "summary": "1. Fork the repository"
+    },
+    {
+      "anchor": "readme--resources-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Resources",
+      "file": "docs/development/README.md",
+      "line": 318,
+      "tag": "Empirical/Declared",
+      "summary": "- [MCP Specification](https://modelcontextprotocol.io/)"
+    },
+    {
+      "anchor": "readme-5",
+      "family": "doc",
+      "kind": "other",
+      "title": "Security Documentation",
+      "file": "docs/security/README.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "This document outlines the security considerations, practices, and limitations of the Search Box MCP server."
+    },
+    {
+      "anchor": "readme--overview-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Overview",
+      "file": "docs/security/README.md",
+      "line": 3,
+      "tag": "Empirical/Declared",
+      "summary": "This document outlines the security considerations, practices, and limitations of the Search Box MCP server."
+    },
+    {
+      "anchor": "readme--security-features",
+      "family": "doc",
+      "kind": "section",
+      "title": "Security Features",
+      "file": "docs/security/README.md",
+      "line": 7,
+      "tag": "Empirical/Declared",
+      "summary": "All search providers are keyless:"
+    },
+    {
+      "anchor": "readme--1.-no-api-keys-required",
+      "family": "doc",
+      "kind": "section",
+      "title": "1. No API Keys Required",
+      "file": "docs/security/README.md",
+      "line": 9,
+      "tag": "Empirical/Declared",
+      "summary": "All search providers are keyless:"
+    },
+    {
+      "anchor": "readme--2.-privacy-respecting-providers",
+      "family": "doc",
+      "kind": "section",
+      "title": "2. Privacy-Respecting Providers",
+      "file": "docs/security/README.md",
+      "line": 16,
+      "tag": "Empirical/Declared",
+      "summary": "All providers prioritize user privacy:"
+    },
+    {
+      "anchor": "readme--3.-https-communication",
+      "family": "doc",
+      "kind": "section",
+      "title": "3. HTTPS Communication",
+      "file": "docs/security/README.md",
+      "line": 22,
+      "tag": "Empirical/Declared",
+      "summary": "All HTTP requests use HTTPS:"
+    },
+    {
+      "anchor": "readme--4.-input-validation",
+      "family": "doc",
+      "kind": "section",
+      "title": "4. Input Validation",
+      "file": "docs/security/README.md",
+      "line": 29,
+      "tag": "Empirical/Declared",
+      "summary": "Strict parameter validation:"
+    },
+    {
+      "anchor": "readme--query-validation",
+      "family": "doc",
+      "kind": "other",
+      "title": "Query validation",
+      "file": "docs/security/README.md",
+      "line": 33,
+      "tag": "Empirical/Declared",
+      "summary": "if not query or not query.strip():"
+    },
+    {
+      "anchor": "readme--range-validation",
+      "family": "doc",
+      "kind": "other",
+      "title": "Range validation",
+      "file": "docs/security/README.md",
+      "line": 37,
+      "tag": "Empirical/Declared",
+      "summary": "if numresults < 1 or numresults > 20:"
+    },
+    {
+      "anchor": "readme--5.-error-handling",
+      "family": "doc",
+      "kind": "section",
+      "title": "5. Error Handling",
+      "file": "docs/security/README.md",
+      "line": 42,
+      "tag": "Empirical/Declared",
+      "summary": "Safe error handling without exposing sensitive data:"
+    },
+    {
+      "anchor": "readme--security-limitations",
+      "family": "doc",
+      "kind": "section",
+      "title": "Security Limitations",
+      "file": "docs/security/README.md",
+      "line": 49,
+      "tag": "Empirical/Declared",
+      "summary": "SearxNG uses public instances:"
+    },
+    {
+      "anchor": "readme--1.-public-instances",
+      "family": "doc",
+      "kind": "section",
+      "title": "1. Public Instances",
+      "file": "docs/security/README.md",
+      "line": 51,
+      "tag": "Empirical/Declared",
+      "summary": "SearxNG uses public instances:"
+    },
+    {
+      "anchor": "readme--2.-html-scraping",
+      "family": "doc",
+      "kind": "section",
+      "title": "2. HTML Scraping",
+      "file": "docs/security/README.md",
+      "line": 60,
+      "tag": "Empirical/Declared",
+      "summary": "DuckDuckGo provider uses HTML scraping:"
+    },
+    {
+      "anchor": "readme--3.-no-rate-limiting",
+      "family": "doc",
+      "kind": "section",
+      "title": "3. No Rate Limiting",
+      "file": "docs/security/README.md",
+      "line": 69,
+      "tag": "Empirical/Declared",
+      "summary": "No built-in rate limiting:"
+    },
+    {
+      "anchor": "readme--4.-user-input",
+      "family": "doc",
+      "kind": "section",
+      "title": "4. User Input",
+      "file": "docs/security/README.md",
+      "line": 77,
+      "tag": "Empirical/Declared",
+      "summary": "Search queries come from LLM/user:"
+    },
+    {
+      "anchor": "readme--best-practices-2",
+      "family": "doc",
+      "kind": "section",
+      "title": "Best Practices",
+      "file": "docs/security/README.md",
+      "line": 86,
+      "tag": "Empirical/Declared",
+      "summary": "location /mcp {"
+    },
+    {
+      "anchor": "readme--1.-deployment",
+      "family": "doc",
+      "kind": "section",
+      "title": "1. Deployment",
+      "file": "docs/security/README.md",
+      "line": 88,
+      "tag": "Empirical/Declared",
+      "summary": "location /mcp {"
+    },
+    {
+      "anchor": "readme--run-behind-reverse-proxy",
+      "family": "doc",
+      "kind": "other",
+      "title": "Run behind reverse proxy",
+      "file": "docs/security/README.md",
+      "line": 91,
+      "tag": "Empirical/Declared",
+      "summary": "location /mcp {"
+    },
+    {
+      "anchor": "readme--nginx-apache-or-caddy-with-rate-limiting",
+      "family": "doc",
+      "kind": "other",
+      "title": "nginx, Apache, or Caddy with rate limiting",
+      "file": "docs/security/README.md",
+      "line": 92,
+      "tag": "Empirical/Declared",
+      "summary": "location /mcp {"
+    },
+    {
+      "anchor": "readme--example-nginx-config",
+      "family": "doc",
+      "kind": "other",
+      "title": "Example nginx config",
+      "file": "docs/security/README.md",
+      "line": 94,
+      "tag": "Empirical/Declared",
+      "summary": "location /mcp {"
+    },
+    {
+      "anchor": "readme--2.-network-security",
+      "family": "doc",
+      "kind": "section",
+      "title": "2. Network Security",
+      "file": "docs/security/README.md",
+      "line": 101,
+      "tag": "Empirical/Declared",
+      "summary": "ufw allow out 443/tcp"
+    },
+    {
+      "anchor": "readme--firewall-rules",
+      "family": "doc",
+      "kind": "other",
+      "title": "Firewall rules",
+      "file": "docs/security/README.md",
+      "line": 104,
+      "tag": "Empirical/Declared",
+      "summary": "ufw allow out 443/tcp"
+    },
+    {
+      "anchor": "readme--only-allow-necessary-outbound-https",
+      "family": "doc",
+      "kind": "other",
+      "title": "Only allow necessary outbound HTTPS",
+      "file": "docs/security/README.md",
+      "line": 105,
+      "tag": "Empirical/Declared",
+      "summary": "ufw allow out 443/tcp"
+    },
+    {
+      "anchor": "readme--restrict-inbound-to-localhost-only",
+      "family": "doc",
+      "kind": "other",
+      "title": "Restrict inbound to localhost only",
+      "file": "docs/security/README.md",
+      "line": 108,
+      "tag": "Empirical/Declared",
+      "summary": "ufw deny in from any to any"
+    },
+    {
+      "anchor": "readme--3.-monitoring",
+      "family": "doc",
+      "kind": "section",
+      "title": "3. Monitoring",
+      "file": "docs/security/README.md",
+      "line": 112,
+      "tag": "Empirical/Declared",
+      "summary": "import logging"
+    },
+    {
+      "anchor": "readme--log-security-relevant-events",
+      "family": "doc",
+      "kind": "other",
+      "title": "Log security-relevant events",
+      "file": "docs/security/README.md",
+      "line": 117,
+      "tag": "Empirical/Declared",
+      "summary": "logger.info(f\"Search query from {clientid}: {query[:50]}...\")"
+    },
+    {
+      "anchor": "readme--4.-dependency-management",
+      "family": "doc",
+      "kind": "section",
+      "title": "4. Dependency Management",
+      "file": "docs/security/README.md",
+      "line": 123,
+      "tag": "Empirical/Declared",
+      "summary": "pip install --upgrade -r requirements.txt"
+    },
+    {
+      "anchor": "readme--regularly-update-dependencies",
+      "family": "doc",
+      "kind": "other",
+      "title": "Regularly update dependencies",
+      "file": "docs/security/README.md",
+      "line": 126,
+      "tag": "Empirical/Declared",
+      "summary": "pip install --upgrade -r requirements.txt"
+    },
+    {
+      "anchor": "readme--check-for-vulnerabilities",
+      "family": "doc",
+      "kind": "other",
+      "title": "Check for vulnerabilities",
+      "file": "docs/security/README.md",
+      "line": 129,
+      "tag": "Empirical/Declared",
+      "summary": "pip install safety"
+    },
+    {
+      "anchor": "readme--or-use-automated-tools",
+      "family": "doc",
+      "kind": "other",
+      "title": "Or use automated tools",
+      "file": "docs/security/README.md",
+      "line": 133,
+      "tag": "Empirical/Declared",
+      "summary": "pip install pip-audit"
+    },
+    {
+      "anchor": "readme--threat-model",
+      "family": "doc",
+      "kind": "section",
+      "title": "Threat Model",
+      "file": "docs/security/README.md",
+      "line": 138,
+      "tag": "Empirical/Declared",
+      "summary": "1. Query Privacy: Protecting user search queries"
+    },
+    {
+      "anchor": "readme--in-scope",
+      "family": "doc",
+      "kind": "section",
+      "title": "In Scope",
+      "file": "docs/security/README.md",
+      "line": 140,
+      "tag": "Empirical/Declared",
+      "summary": "1. Query Privacy: Protecting user search queries"
+    },
+    {
+      "anchor": "readme--out-of-scope",
+      "family": "doc",
+      "kind": "section",
+      "title": "Out of Scope",
+      "file": "docs/security/README.md",
+      "line": 147,
+      "tag": "Empirical/Declared",
+      "summary": "1. Provider Security: Security of DuckDuckGo/SearxNG"
+    },
+    {
+      "anchor": "readme--known-issues",
+      "family": "doc",
+      "kind": "section",
+      "title": "Known Issues",
+      "file": "docs/security/README.md",
+      "line": 154,
+      "tag": "Empirical/Declared",
+      "summary": "Current implementation has no authentication:"
+    },
+    {
+      "anchor": "readme--1.-no-authentication",
+      "family": "doc",
+      "kind": "section",
+      "title": "1. No Authentication",
+      "file": "docs/security/README.md",
+      "line": 156,
+      "tag": "Empirical/Declared",
+      "summary": "Current implementation has no authentication:"
+    },
+    {
+      "anchor": "readme--2.-no-query-sanitization",
+      "family": "doc",
+      "kind": "section",
+      "title": "2. No Query Sanitization",
+      "file": "docs/security/README.md",
+      "line": 165,
+      "tag": "Empirical/Declared",
+      "summary": "Queries are passed as-is to providers:"
+    },
+    {
+      "anchor": "readme--3.-no-content-filtering",
+      "family": "doc",
+      "kind": "section",
+      "title": "3. No Content Filtering",
+      "file": "docs/security/README.md",
+      "line": 174,
+      "tag": "Empirical/Declared",
+      "summary": "Results returned without filtering:"
+    },
+    {
+      "anchor": "readme--reporting-security-issues",
+      "family": "doc",
+      "kind": "section",
+      "title": "Reporting Security Issues",
+      "file": "docs/security/README.md",
+      "line": 183,
+      "tag": "Empirical/Declared",
+      "summary": "If you discover a security vulnerability:"
+    },
+    {
+      "anchor": "readme--compliance",
+      "family": "doc",
+      "kind": "section",
+      "title": "Compliance",
+      "file": "docs/security/README.md",
+      "line": 197,
+      "tag": "Empirical/Declared",
+      "summary": "- GDPR: No personal data collected or stored"
+    },
+    {
+      "anchor": "readme--data-privacy",
+      "family": "doc",
+      "kind": "section",
+      "title": "Data Privacy",
+      "file": "docs/security/README.md",
+      "line": 199,
+      "tag": "Empirical/Declared",
+      "summary": "- GDPR: No personal data collected or stored"
+    },
+    {
+      "anchor": "readme--third-party-services",
+      "family": "doc",
+      "kind": "section",
+      "title": "Third-Party Services",
+      "file": "docs/security/README.md",
+      "line": 205,
+      "tag": "Empirical/Declared",
+      "summary": "Queries sent to:"
+    },
+    {
+      "anchor": "readme--audit-log",
+      "family": "doc",
+      "kind": "section",
+      "title": "Audit Log",
+      "file": "docs/security/README.md",
+      "line": 213,
+      "tag": "Empirical/Declared",
+      "summary": "Before deployment:"
+    },
+    {
+      "anchor": "readme--security-checklist",
+      "family": "doc",
+      "kind": "section",
+      "title": "Security Checklist",
+      "file": "docs/security/README.md",
+      "line": 219,
+      "tag": "Empirical/Declared",
+      "summary": "Before deployment:"
+    },
+    {
+      "anchor": "readme--resources-3",
+      "family": "doc",
+      "kind": "section",
+      "title": "Resources",
+      "file": "docs/security/README.md",
+      "line": 232,
+      "tag": "Empirical/Declared",
+      "summary": "- [OWASP Top 10](https://owasp.org/www-project-top-ten/)"
+    },
+    {
+      "anchor": "readme-6",
+      "family": "research",
+      "kind": "record",
+      "title": "README",
+      "file": "docs/research/brave/README.md",
+      "line": 1,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "readme-7",
+      "family": "research",
+      "kind": "record",
+      "title": "README",
+      "file": "docs/research/google/README.md",
+      "line": 1,
+      "tag": "Empirical/Declared"
+    },
+    {
+      "anchor": "changelog",
+      "family": "changelog",
+      "kind": "entry",
+      "title": "Changelog",
+      "file": "CHANGELOG.md",
+      "line": 1,
+      "tag": "Empirical/Declared",
+      "summary": "All notable changes to this project will be documented in this file."
+    },
+    {
+      "anchor": "changelog--0.2.0-2024-12-22",
+      "family": "changelog",
+      "kind": "section",
+      "title": "[0.2.0] - 2024-12-22",
+      "file": "CHANGELOG.md",
+      "line": 8,
+      "tag": "Empirical/Declared",
+      "summary": "- Caching Layer: LRU cache with TTL for search results"
+    },
+    {
+      "anchor": "changelog--added",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Added",
+      "file": "CHANGELOG.md",
+      "line": 10,
+      "tag": "Empirical/Declared",
+      "summary": "- Caching Layer: LRU cache with TTL for search results"
+    },
+    {
+      "anchor": "changelog--changed",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Changed",
+      "file": "CHANGELOG.md",
+      "line": 25,
+      "tag": "Empirical/Declared",
+      "summary": "- Updated all search tools to use cachedsearch for better performance"
+    },
+    {
+      "anchor": "changelog--improved",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Improved",
+      "file": "CHANGELOG.md",
+      "line": 32,
+      "tag": "Empirical/Declared",
+      "summary": "- Performance: Cached searches can be 100-1000x faster for repeated queries"
+    },
+    {
+      "anchor": "changelog--testing",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Testing",
+      "file": "CHANGELOG.md",
+      "line": 37,
+      "tag": "Empirical/Declared",
+      "summary": "- Total tests: 31 (15 original + 16 cache tests)"
+    },
+    {
+      "anchor": "changelog--0.1.0-2024-12-22",
+      "family": "changelog",
+      "kind": "section",
+      "title": "[0.1.0] - 2024-12-22",
+      "file": "CHANGELOG.md",
+      "line": 41,
+      "tag": "Empirical/Declared",
+      "summary": "- Initial implementation of Multi-Provider MCP Server"
+    },
+    {
+      "anchor": "changelog--added-2",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Added",
+      "file": "CHANGELOG.md",
+      "line": 43,
+      "tag": "Empirical/Declared",
+      "summary": "- Initial implementation of Multi-Provider MCP Server"
+    },
+    {
+      "anchor": "changelog--features",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Features",
+      "file": "CHANGELOG.md",
+      "line": 65,
+      "tag": "Empirical/Declared",
+      "summary": "- Token-efficient search via MCP progressive discovery"
+    },
+    {
+      "anchor": "changelog--documentation",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Documentation",
+      "file": "CHANGELOG.md",
+      "line": 74,
+      "tag": "Empirical/Declared",
+      "summary": "- Installation and setup instructions"
+    },
+    {
+      "anchor": "changelog--testing-2",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Testing",
+      "file": "CHANGELOG.md",
+      "line": 82,
+      "tag": "Empirical/Declared",
+      "summary": "- Unit tests for base classes"
+    }
+  ],
+  "flagged": []
+}
