@@ -285,3 +285,8 @@ See LICENSE file for details.
 ---
 
 Built with MCP 2025-11-25 | Python 3.12+
+
+## Status & roadmap
+
+- [Assessment & gaps](docs/ASSESSMENT.md)
+- [Product roadmap & API plans](docs/ROADMAP.md)
