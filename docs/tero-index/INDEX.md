@@ -3,16 +3,22 @@
 > **Honesty:** Empirical/Declared — lite heading/line heuristic over markdown in search-box via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-09.
 > Use this index to find where to Read, not as authoritative ground truth.
 
-- **Items:** 266
+- **Items:** 283
 - **Flagged:** 0
 - **item_tag:** `Empirical/Declared`
 - **Machine index:** [`index.json`](./index.json)
 - **Manifest:** [`MANIFEST.toml`](./MANIFEST.toml)
 
-## doc (253 entries)
+## doc (270 entries)
 
 | Anchor | Kind | Id | Title | File:Line | Status | Summary |
 |---|---|---|---|---|---|---|
+| `agents` | other | — | AGENTS.md — search-box | `AGENTS.md:2` | — | Use Tero + cabal-devmelopner for work here. |
+| `agents--tero-layer-1-corpus-index` | section | — | Tero (Layer-1 corpus index) | `AGENTS.md:6` | — | Repo has docs/tero-index/index.json (generated/ refreshed via tero-mcp/scripts/generateliteindex.py). |
+| `agents--agent-with-context` | other | — | agent with context: | `AGENTS.md:18` | — | uv run --project ../cabal-devmelopner cabal-devmelopner "task description here" --use-tero |
+| `agents--working-with-cabal-devmelopner-agent-tool` | section | — | Working with cabal-devmelopner agent tool | `AGENTS.md:24` | — | This project is prepared for integration: |
+| `agents--local-checks` | section | — | Local checks | `AGENTS.md:36` | — | Look for: |
+| `agents--further-reading` | section | — | Further reading | `AGENTS.md:44` | — | - README.md |
 | `implementationsummary` | section | — | Implementation Summary | `IMPLEMENTATION_SUMMARY.md:1` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--project-multi-provider-mcp-server-for-keyless-search-tools` | section | — | Project: Multi-Provider MCP Server for Keyless Search Tools | `IMPLEMENTATION_SUMMARY.md:3` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--overview` | section | — | Overview | `IMPLEMENTATION_SUMMARY.md:5` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
@@ -89,6 +95,7 @@
 | `assessment--2.-maturity-on-develop-dev-tree-2.53-5` | section | — | 2. Maturity (on develop/dev tree): **~2.5–3 / 5** | `docs/ASSESSMENT.md:19` | — | — |
 | `assessment--3.-gaps` | section | — | 3. Gaps | `docs/ASSESSMENT.md:32` | — | — |
 | `assessment--4.-integration-cabal` | section | — | 4. Integration (cabal) | `docs/ASSESSMENT.md:45` | — | Optional search MCP after promote-to-main and schema freeze. Complements webpuppet (no browser for simple search). Not a substitute for Tero corpus search. |
+| `assessment--tero-index` | section | — | Tero index | `docs/ASSESSMENT.md:51` | — | Layer-1 citation index: [docs/tero-index/](tero-index/) (index.json, INDEX.md, MANIFEST.toml). |
 | `integration` | section | — | Integration Guide | `docs/INTEGRATION.md:1` | — | This guide explains how to integrate the Search Box MCP server with various clients and applications. |
 | `integration--overview` | section | — | Overview | `docs/INTEGRATION.md:3` | — | This guide explains how to integrate the Search Box MCP server with various clients and applications. |
 | `integration--claude-desktop-integration` | section | — | Claude Desktop Integration | `docs/INTEGRATION.md:7` | — | - Claude Desktop installed |
@@ -135,6 +142,12 @@
 | `integration--examples-repository` | section | — | Examples Repository | `docs/INTEGRATION.md:395` | — | See /examples/ directory for more integration examples: |
 | `integration--support` | section | — | Support | `docs/INTEGRATION.md:404` | — | For integration issues: |
 | `integration--resources` | section | — | Resources | `docs/INTEGRATION.md:412` | — | - [MCP Specification](https://modelcontextprotocol.io/) |
+| `localchecks` | section | — | Local checks (CI parity) | `docs/LOCAL_CHECKS.md:1` | — | GitHub Actions workflows in this repo are manual only (workflowdispatch). |
+| `localchecks--run-everything-the-remote-job-would-run` | section | — | Run everything the remote job would run | `docs/LOCAL_CHECKS.md:6` | — | ./scripts/check.sh |
+| `localchecks--tero-index` | section | — | Tero index | `docs/LOCAL_CHECKS.md:19` | — | python3 ../tero-mcp/scripts/generateliteindex.py --root "$(pwd)" |
+| `localchecks--from-a-checkout-that-can-see-the-generator-sibling-tero-mcp-recommended` | other | — | from a checkout that can see the generator (sibling tero-mcp recommended): | `docs/LOCAL_CHECKS.md:22` | — | python3 ../tero-mcp/scripts/generateliteindex.py --root "$(pwd)" |
+| `localchecks--or` | other | — | or: | `docs/LOCAL_CHECKS.md:24` | — | python3 scripts/generateteroindex.sh   # if present as a thin wrapper |
+| `localchecks--remote-optional` | section | — | Remote (optional) | `docs/LOCAL_CHECKS.md:30` | — | In GitHub: Actions → CI → Run workflow. |
 | `readme-2` | other | — | README | `docs/README.md:1` | — | — |
 | `roadmap` | note | — | search-box — Product Roadmap | `docs/ROADMAP.md:1` | Living (2026-07-08) | Status: Living (2026-07-08) |
 | `roadmap--waves` | section | — | Waves | `docs/ROADMAP.md:11` | — | — |
@@ -266,13 +279,17 @@
 | `readme--audit-log` | section | — | Audit Log | `docs/security/README.md:213` | — | Before deployment: |
 | `readme--security-checklist` | section | — | Security Checklist | `docs/security/README.md:219` | — | Before deployment: |
 | `readme--resources-3` | section | — | Resources | `docs/security/README.md:232` | — | - [OWASP Top 10](https://owasp.org/www-project-top-ten/) |
+| `readme-6` | other | — | Tero index (Layer 1) | `docs/tero-index/README.md:1` | — | Machine + human citation index for this repository. |
+| `readme--regenerate` | section | — | Regenerate | `docs/tero-index/README.md:13` | — | python3 /path/to/tero-mcp/scripts/generateliteindex.py --root $(pwd) |
+| `readme--or-if-tero-mcp-is-a-sibling` | other | — | or if tero-mcp is a sibling: | `docs/tero-index/README.md:17` | — | python3 ../tero-mcp/scripts/generateliteindex.py --root $(pwd) |
+| `readme--serve-locally` | section | — | Serve locally | `docs/tero-index/README.md:21` | — | export TEROTOKENS=local-dev:refresh |
 
 ## research (2 entries)
 
 | Anchor | Kind | Id | Title | File:Line | Status | Summary |
 |---|---|---|---|---|---|---|
-| `readme-6` | record | — | README | `docs/research/brave/README.md:1` | — | — |
-| `readme-7` | record | — | README | `docs/research/google/README.md:1` | — | — |
+| `readme-7` | record | — | README | `docs/research/brave/README.md:1` | — | — |
+| `readme-8` | record | — | README | `docs/research/google/README.md:1` | — | — |
 
 ## changelog (11 entries)
 
