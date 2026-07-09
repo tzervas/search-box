@@ -47,3 +47,7 @@
 Optional **search MCP** after promote-to-main and schema freeze. Complements webpuppet (no browser for simple search). Not a substitute for Tero corpus search.
 
 See [ROADMAP.md](ROADMAP.md).
+
+## Tero index
+
+Layer-1 citation index: [docs/tero-index/](tero-index/) (`index.json`, `INDEX.md`, `MANIFEST.toml`).
