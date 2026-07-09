@@ -3,13 +3,13 @@
 > **Honesty:** Empirical/Declared — lite heading/line heuristic over markdown in search-box via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-09.
 > Use this index to find where to Read, not as authoritative ground truth.
 
-- **Items:** 283
+- **Items:** 284
 - **Flagged:** 0
 - **item_tag:** `Empirical/Declared`
 - **Machine index:** [`index.json`](./index.json)
 - **Manifest:** [`MANIFEST.toml`](./MANIFEST.toml)
 
-## doc (270 entries)
+## doc (271 entries)
 
 | Anchor | Kind | Id | Title | File:Line | Status | Summary |
 |---|---|---|---|---|---|---|
@@ -19,6 +19,7 @@
 | `agents--working-with-cabal-devmelopner-agent-tool` | section | — | Working with cabal-devmelopner agent tool | `AGENTS.md:24` | — | This project is prepared for integration: |
 | `agents--local-checks` | section | — | Local checks | `AGENTS.md:36` | — | Look for: |
 | `agents--further-reading` | section | — | Further reading | `AGENTS.md:44` | — | - README.md |
+| `agents--hygiene-tero-land-status-2026-07-09` | section | — | Hygiene + tero land status (2026-07-09) | `AGENTS.md:54` | — | - Task: Land chore/tero + hygiene for search-box (per plan.md priority 1). |
 | `implementationsummary` | section | — | Implementation Summary | `IMPLEMENTATION_SUMMARY.md:1` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--project-multi-provider-mcp-server-for-keyless-search-tools` | section | — | Project: Multi-Provider MCP Server for Keyless Search Tools | `IMPLEMENTATION_SUMMARY.md:3` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--overview` | section | — | Overview | `IMPLEMENTATION_SUMMARY.md:5` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |

@@ -64,6 +64,16 @@
       "summary": "- README.md"
     },
     {
+      "anchor": "agents--hygiene-tero-land-status-2026-07-09",
+      "family": "doc",
+      "kind": "section",
+      "title": "Hygiene + tero land status (2026-07-09)",
+      "file": "AGENTS.md",
+      "line": 54,
+      "tag": "Empirical/Declared",
+      "summary": "- Task: Land chore/tero + hygiene for search-box (per plan.md priority 1)."
+    },
+    {
       "anchor": "implementationsummary",
       "family": "doc",
       "kind": "section",

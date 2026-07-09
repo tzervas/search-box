@@ -51,3 +51,16 @@ Run checks before considering work complete.
 
 Leave mycelium isolated; all coordination here targets the other repos + cabal.
 
+## Hygiene + tero land status (2026-07-09)
+- Task: Land chore/tero + hygiene for search-box (per plan.md priority 1).
+- Tero-first: used `/root/git/scripts/tero.sh search-box ...` (identify, text_search, etc) before edits/assumptions.
+- Read plan.md + models (ROADMAP, ASSESSMENT, LOCAL_CHECKS, update-tero.sh, check.sh, etc).
+- Checkout dev; merge --no-ff chore/tero-index-cabal-ready; push.
+- ./scripts/check.sh : 31 tests passed, green.
+- update-tero.sh search-box; committed tero refresh (MANIFEST + prior).
+- Merged to main --no-ff; propagated (dev <-> main --no-ff, pushed).
+- Appended this status (append-only).
+- Verified: branches synced (origin/dev, origin/main current), checks green, tero queries resolve (see docs/tero-index).
+- Citations from tero used to open AGENTS:24, ROADMAP:1 etc.
+- Note: now tero index + check/AGENTS/LOCAL_CHECKS on main/dev (was only on chore).
+
