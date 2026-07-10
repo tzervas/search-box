@@ -290,3 +290,14 @@ Built with MCP 2025-11-25 | Python 3.12+
 
 - [Assessment & gaps](docs/ASSESSMENT.md)
 - [Product roadmap & API plans](docs/ROADMAP.md)
+
+## Semver + Releases (2026-07-10 appended)
+
+Semver baseline established writ large (plan.md, Tero-scoped survey across workspace). Scoped to search-box.
+
+- search-box: 0.1.0 (no prior tags).
+- Local python build (python -m build per docs/development/README.md), annotated tag v0.1.0, gh release (dist attached).
+- Local podman GHCR for any future container dist (preference confirmed per plan.md; peri example; avoids Actions).
+- Process + cites in docs/ROADMAP.md semver section + AGENTS.md .
+- Tero-first via scripts/tero.sh ; hygiene; append-only.
+

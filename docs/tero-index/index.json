@@ -1,5 +1,5 @@
 {
-  "generated": "Empirical/Declared — lite heading/line heuristic over markdown in search-box via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-09.",
+  "generated": "Empirical/Declared — lite heading/line heuristic over markdown in search-box-semver-baseline-v0.1.0 via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-10.",
   "item_tag": "Empirical/Declared",
   "siblings": [],
   "items": [
@@ -72,6 +72,16 @@
       "line": 54,
       "tag": "Empirical/Declared",
       "summary": "- Task: Land chore/tero + hygiene for search-box (per plan.md priority 1)."
+    },
+    {
+      "anchor": "agents--semver-releases-2026-07-10-appended",
+      "family": "doc",
+      "kind": "section",
+      "title": "Semver + Releases (2026-07-10 appended)",
+      "file": "AGENTS.md",
+      "line": 67,
+      "tag": "Empirical/Declared",
+      "summary": "Semver baseline established writ large (per plan.md, user directive, Tero-scoped commit history + docs survey). Scoped to search-box only."
     },
     {
       "anchor": "implementationsummary",
@@ -784,6 +794,16 @@
       "summary": "- [Assessment & gaps](docs/ASSESSMENT.md)"
     },
     {
+      "anchor": "readme--semver-releases-2026-07-10-appended",
+      "family": "doc",
+      "kind": "section",
+      "title": "Semver + Releases (2026-07-10 appended)",
+      "file": "README.md",
+      "line": 294,
+      "tag": "Empirical/Declared",
+      "summary": "Semver baseline established writ large (plan.md, Tero-scoped survey across workspace). Scoped to search-box."
+    },
+    {
       "anchor": "assessment",
       "family": "doc",
       "kind": "note",
@@ -1494,6 +1514,16 @@
       "line": 106,
       "tag": "Empirical/Declared",
       "summary": "- Scraping behind logins by default"
+    },
+    {
+      "anchor": "roadmap--semver-baseline-appended-2026-07-10",
+      "family": "doc",
+      "kind": "section",
+      "title": "Semver baseline (appended 2026-07-10)",
+      "file": "docs/ROADMAP.md",
+      "line": 112,
+      "tag": "Empirical/Declared",
+      "summary": "Per plan.md (Local GHCR + semver section) + user: semver + releases for packages writ large. Local builds (no Actions). GHCR podman preference for containers."
     },
     {
       "anchor": "readme-3",
@@ -2832,6 +2862,16 @@
       "line": 82,
       "tag": "Empirical/Declared",
       "summary": "- Unit tests for base classes"
+    },
+    {
+      "anchor": "changelog--semver-baseline-notes-appended-2026-07-10",
+      "family": "changelog",
+      "kind": "section",
+      "title": "Semver baseline notes (appended 2026-07-10)",
+      "file": "CHANGELOG.md",
+      "line": 92,
+      "tag": "Empirical/Declared",
+      "summary": "- Formal semver baseline v0.1.0 established per workspace plan.md (see \"Local GHCR + semver\" and execution continuation sections) + local GHCR preference (podm…"
     }
   ],
   "flagged": []

@@ -88,3 +88,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [0.2.0]: https://github.com/tzervas/search-box/releases/tag/v0.2.0
 [0.1.0]: https://github.com/tzervas/search-box/releases/tag/v0.1.0
+
+## Semver baseline notes (appended 2026-07-10)
+
+- Formal semver baseline v0.1.0 established per workspace plan.md (see "Local GHCR + semver" and execution continuation sections) + local GHCR preference (podman local builds/push to avoid Actions credits; applied to python dist+gh release here).
+- Cites: plan.md, tero queries (local search-box index via tero.sh: changelog entry + plan refs in AGENTS/ROADMAP), global tero, workspace-private analyses.
+- See AGENTS.md, README.md, docs/ROADMAP.md for full process notes (Tero-first, hygiene, append-only, guards, local build).
+- No changes to prior 0.1.0/0.2.0 content (append-only).
+- v0.1.0 tag + gh release created; versions aligned in pyproject/VERSION/__init__.py .
+

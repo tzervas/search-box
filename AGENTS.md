@@ -64,3 +64,18 @@ Leave mycelium isolated; all coordination here targets the other repos + cabal.
 - Citations from tero used to open AGENTS:24, ROADMAP:1 etc.
 - Note: now tero index + check/AGENTS/LOCAL_CHECKS on main/dev (was only on chore).
 
+## Semver + Releases (2026-07-10 appended)
+
+Semver baseline established writ large (per plan.md, user directive, Tero-scoped commit history + docs survey). Scoped to search-box only.
+
+- Declared: 0.1.0 (pyproject.toml, VERSION, search_box/__init__.py aligned for baseline).
+- Initial formal release: v0.1.0 (no prior tags existed; this establishes baseline).
+- Process: Tero-first via /root/git/scripts/tero.sh search-box (identify, text_search, etc), branch/worktree guards, append-only, local python build (python -m build), hygiene via scripts/check.sh, tero regen, annotated tag v0.1.0, gh release (dists attached), push.
+- Local GHCR preference (from plan.md): podman local build/push to ghcr (no Actions credits) when containers apply; python uses local build + gh release.
+- Future bumps follow semver (MAJOR.MINOR.PATCH) + update CHANGELOG/ROADMAP/AGENTS + tero regen + hygiene before land.
+- Cites (Tero + git): plan.md (Local GHCR + semver, Cabal v0.1.0 + tero-mcp v0.1.0 examples), local tero (search-box docs/tero-index): agents--hygiene-tero-land-status-2026-07-09, roadmap--pr-plan, roadmap--api-plan; global tero workspacecabalteroreadiness sections; git tag survey (none pre); workspace-private-docs/analyses/current-status.md .
+
+Branch: chore/semver-baseline-v0.1.0 (worktree at .worktrees/...; branch-guard + worktree-guard).
+Tero-first, hygiene, append-only, local builds, dev-workflow followed. All changes scoped to search-box.
+
+

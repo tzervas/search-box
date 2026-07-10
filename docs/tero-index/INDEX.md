@@ -1,15 +1,15 @@
-# search-box — Tero Index (Layer 1)
+# search-box-semver-baseline-v0.1.0 — Tero Index (Layer 1)
 
-> **Honesty:** Empirical/Declared — lite heading/line heuristic over markdown in search-box via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-09.
+> **Honesty:** Empirical/Declared — lite heading/line heuristic over markdown in search-box-semver-baseline-v0.1.0 via tero-mcp/scripts/generate_lite_index.py; source files are ground truth. Generated 2026-07-10.
 > Use this index to find where to Read, not as authoritative ground truth.
 
-- **Items:** 284
+- **Items:** 288
 - **Flagged:** 0
 - **item_tag:** `Empirical/Declared`
 - **Machine index:** [`index.json`](./index.json)
 - **Manifest:** [`MANIFEST.toml`](./MANIFEST.toml)
 
-## doc (271 entries)
+## doc (274 entries)
 
 | Anchor | Kind | Id | Title | File:Line | Status | Summary |
 |---|---|---|---|---|---|---|
@@ -20,6 +20,7 @@
 | `agents--local-checks` | section | — | Local checks | `AGENTS.md:36` | — | Look for: |
 | `agents--further-reading` | section | — | Further reading | `AGENTS.md:44` | — | - README.md |
 | `agents--hygiene-tero-land-status-2026-07-09` | section | — | Hygiene + tero land status (2026-07-09) | `AGENTS.md:54` | — | - Task: Land chore/tero + hygiene for search-box (per plan.md priority 1). |
+| `agents--semver-releases-2026-07-10-appended` | section | — | Semver + Releases (2026-07-10 appended) | `AGENTS.md:67` | — | Semver baseline established writ large (per plan.md, user directive, Tero-scoped commit history + docs survey). Scoped to search-box only. |
 | `implementationsummary` | section | — | Implementation Summary | `IMPLEMENTATION_SUMMARY.md:1` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--project-multi-provider-mcp-server-for-keyless-search-tools` | section | — | Project: Multi-Provider MCP Server for Keyless Search Tools | `IMPLEMENTATION_SUMMARY.md:3` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
 | `implementationsummary--overview` | section | — | Overview | `IMPLEMENTATION_SUMMARY.md:5` | — | Successfully implemented a production-ready Model Context Protocol (MCP) server that provides token-efficient, privacy-focused search integration with Claude m… |
@@ -91,6 +92,7 @@
 | `readme--license` | section | — | License | `README.md:275` | — | See LICENSE file for details. |
 | `readme--acknowledgments` | section | — | Acknowledgments | `README.md:279` | — | - Anthropic for the Model Context Protocol specification |
 | `readme--status-roadmap` | section | — | Status & roadmap | `README.md:289` | — | - [Assessment & gaps](docs/ASSESSMENT.md) |
+| `readme--semver-releases-2026-07-10-appended` | section | — | Semver + Releases (2026-07-10 appended) | `README.md:294` | — | Semver baseline established writ large (plan.md, Tero-scoped survey across workspace). Scoped to search-box. |
 | `assessment` | note | — | search-box — Assessment & Gap Analysis | `docs/ASSESSMENT.md:1` | — | Date: 2026-07-08 |
 | `assessment--1.-branch-reality` | section | — | 1. Branch reality | `docs/ASSESSMENT.md:9` | — | — |
 | `assessment--2.-maturity-on-develop-dev-tree-2.53-5` | section | — | 2. Maturity (on develop/dev tree): **~2.5–3 / 5** | `docs/ASSESSMENT.md:19` | — | — |
@@ -163,6 +165,7 @@
 | `roadmap--python-package-entry` | section | — | Python package entry | `docs/ROADMAP.md:86` | — | search-box          # CLI |
 | `roadmap--pr-plan` | section | — | PR plan | `docs/ROADMAP.md:95` | — | 1. Docs assessment + roadmap on dev |
 | `roadmap--non-goals` | section | — | Non-goals | `docs/ROADMAP.md:106` | — | - Scraping behind logins by default |
+| `roadmap--semver-baseline-appended-2026-07-10` | section | — | Semver baseline (appended 2026-07-10) | `docs/ROADMAP.md:112` | — | Per plan.md (Local GHCR + semver section) + user: semver + releases for packages writ large. Local builds (no Actions). GHCR podman preference for containers. |
 | `readme-3` | other | — | Search Box API Documentation | `docs/api/README.md:1` | — | Abstract base class for all search providers. |
 | `readme--base-classes` | section | — | Base Classes | `docs/api/README.md:3` | — | Abstract base class for all search providers. |
 | `readme--searchprovider` | section | — | SearchProvider | `docs/api/README.md:5` | — | Abstract base class for all search providers. |
@@ -292,7 +295,7 @@
 | `readme-7` | record | — | README | `docs/research/brave/README.md:1` | — | — |
 | `readme-8` | record | — | README | `docs/research/google/README.md:1` | — | — |
 
-## changelog (11 entries)
+## changelog (12 entries)
 
 | Anchor | Kind | Id | Title | File:Line | Status | Summary |
 |---|---|---|---|---|---|---|
@@ -307,4 +310,5 @@
 | `changelog--features` | section | — | Features | `CHANGELOG.md:65` | — | - Token-efficient search via MCP progressive discovery |
 | `changelog--documentation` | section | — | Documentation | `CHANGELOG.md:74` | — | - Installation and setup instructions |
 | `changelog--testing-2` | section | — | Testing | `CHANGELOG.md:82` | — | - Unit tests for base classes |
+| `changelog--semver-baseline-notes-appended-2026-07-10` | section | — | Semver baseline notes (appended 2026-07-10) | `CHANGELOG.md:92` | — | - Formal semver baseline v0.1.0 established per workspace plan.md (see "Local GHCR + semver" and execution continuation sections) + local GHCR preference (podm… |
 

@@ -108,3 +108,16 @@ search-box-mcp      # stdio MCP server
 - Scraping behind logins by default  
 - Replacing Tero corpus search  
 - Unbounded multi-provider fanout without budgets  
+
+## Semver baseline (appended 2026-07-10)
+
+Per plan.md (Local GHCR + semver section) + user: semver + releases for packages writ large. Local builds (no Actions). GHCR podman preference for containers.
+
+- Baseline v0.1.0 for search-box (pyproject + VERSION + __init__ + this).
+- See README.md for Semver + Releases details, cites to Tero searches (e.g. plan refs in AGENTS), git survey (no prior tags).
+- python -m build + hygiene + tag + gh release executed (dists).
+- tero regen + check.sh green pre-tag.
+- Cites: plan.md, tero (roadmap--pr-plan, agents--hygiene-tero-land-status-2026-07-09 via /root/git/scripts/tero.sh search-box), analyses.
+
+Next bumps: hygiene gate, update-tero.sh, append docs (append-only).
+
