@@ -290,3 +290,5 @@ Built with MCP 2025-11-25 | Python 3.12+
 
 - [Assessment & gaps](docs/ASSESSMENT.md)
 - [Product roadmap & API plans](docs/ROADMAP.md)
+## Semver (2026-07-10)
+v0.1.0 search-box (supportive search helper from mycelium, read-only extract).
