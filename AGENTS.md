@@ -64,3 +64,25 @@ Leave mycelium isolated; all coordination here targets the other repos + cabal.
 - Citations from tero used to open AGENTS:24, ROADMAP:1 etc.
 - Note: now tero index + check/AGENTS/LOCAL_CHECKS on main/dev (was only on chore).
 
+
+## Secrets, .env and git-secrets protection (2026-07-10, tooling 1.0 wave)
+**WHAT**:
+- .gitignore now contains standard block for `.env`, `.env.local`, `.env.*.local`, `*.env`, `*.key`, `secrets/` (templates explicitly allowed with `!`).
+- git-secrets protection activated: `git secrets --install -f` (hooks in .git/hooks including pre-commit/prepare-commit-msg), `--register-aws`, custom adds for `XAI_API_KEY` + variants + `ANTHROPIC_API_KEY` + `OPENAI_API_KEY` + sk- patterns.
+- `.gitallowed` created with safe exceptions for key *names* in docs/comments/examples (real secret *values* will still be caught).
+- `git secrets --scan` now clean across tree.
+**WHY**: cabal-devmelopner and agents actively consume `XAI_API_KEY` (and will for Claude/ADK post-stability). Leaking keys in git history is a critical supply chain / compliance risk. Complements security-mcp scans. Enforces 1.0 "hardened" criteria at the source (pre-commit + hygiene).
+**WHY NOT**: Relying on .gitignore alone is insufficient (doesn't scan code/comments for accidental pastes of values); git-secrets chosen as lightweight, established (awslabs), no heavy deps. Allowed patterns only for identifiers (not values).
+**After fresh clone / in new worktree (mandatory)**:
+```
+git secrets --install
+git secrets --register-aws
+git secrets --add 'XAI_API_KEY'
+git secrets --add 'ANTHROPIC_API_KEY'
+git secrets --add 'OPENAI_API_KEY'
+# then verify
+git secrets --scan
+```
+Enhance `scripts/check.sh` with `git secrets --scan || exit 1`.
+Cites: tooling-wave-1.0-readiness doc (this task), user request post dev-support tranche, tero hygiene sections, cabal XAI provider code + AGENTS.
+All changes: Google-style WHAT/WHY/WHY-NOT, append-only, branch/worktree guarded, tero-first audit.
